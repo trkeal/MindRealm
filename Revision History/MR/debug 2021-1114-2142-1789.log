@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(1047) error 16: Expected ',', found ')'
+		filename = RIGHT$(STR$(1000 + ASC(MID$(chr$(o))), 3) + "b0808.til"
+		                                              ^

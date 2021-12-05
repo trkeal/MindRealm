@@ -1,0 +1,27 @@
+C:\AG47\mr97a\MR97a.bas(56) error 4: Duplicated definition, i
+DIM SHARED i(ch, 6): 'character
+                   ^
+C:\AG47\mr97a\MR97a.bas(57) error 4: Duplicated definition, k
+DIM SHARED k(ch, 6): 'character spell knowledge
+                   ^
+C:\AG47\mr97a\MR97a.bas(58) error 4: Duplicated definition, e
+DIM SHARED e(ch, 6): 'character spell experience
+                   ^
+C:\AG47\mr97a\MR97a.bas(60) error 4: Duplicated definition, s
+DIM SHARED s(6): 'spell
+               ^
+C:\AG47\mr97a\MR97a.bas(488) error 20: Type mismatch, found '+'
+466 IF r > 0 AND k(p0, r) = 1 AND e(p0, r) < s(r) THEN r0 = INT(RND(1) * s(r)): r1 = INT(RND(1) * s(r)) + 1: IF r0 < e(p0, r) AND r1 > e(p0, r) THEN e(p0, r) = e(p0, r) + INT(RND(1) * 5) + 1: r$ = "[Mystic Orb: '" + sas(r) + "' Increased]"
+                                                                                                                                                                                                                               ^
+C:\AG47\mr97a\MR97a.bas(489) error 20: Type mismatch, found '+'
+467 IF r > 0 AND k(p0, r) = 0 THEN k(p0, r) = 1: r$ = "[Mystic Orb: Learned '" + sas(r) + "']"
+                                                                                        ^
+C:\AG47\mr97a\MR97a.bas(701) error 20: Type mismatch, found '+'
+1304 IF r <> p0 THEN r$ = "[Switched to " + nas(r) + "]": IF z(p0, 1) = 0 THEN r$ = r$ + "[Lost " + nas(p0) + "]"
+                                                   ^
+C:\AG47\mr97a\MR97a.bas(701) error 20: Type mismatch, found '+'
+1304 IF r <> p0 THEN r$ = "[Switched to " + nas(r) + "]": IF z(p0, 1) = 0 THEN r$ = r$ + "[Lost " + nas(p0) + "]"
+                                                                                                            ^
+C:\AG47\mr97a\MR97a.bas(714) error 20: Type mismatch, found ':'
+1413 NEXT r1: r$ = r$ + nas(r0): NEXT r: r$ = r$ + " joined!]"
+                               ^

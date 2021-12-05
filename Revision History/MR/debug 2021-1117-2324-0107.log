@@ -1,0 +1,9 @@
+C:\AG47\mr97a\MR97a.bas(1350) error 181: Invalid assignment/conversion
+			sptemp = "sprites\" + c0 + "_001.TIL"
+			                           ^
+C:\AG47\mr97a\MR97a.bas(1357) error 181: Invalid assignment/conversion
+			sptemp = "tiles\"+RIGHT$(STR$(1000 + ASC(c0)), 3) + "b0808.til"			
+			                                                    ^
+C:\AG47\mr97a\MR97a.bas(1361) error 58: Type mismatch, at parameter 4 (filename) of SPRITE_PUT()
+		sprite_put 0, (x0 - 1) * 8, (y0 - 1) * 8, sptemp, "pset"
+		                                                ^

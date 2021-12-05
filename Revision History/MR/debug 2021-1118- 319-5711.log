@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(36) error 72: Array not dimensioned, before '('
+	d( rosecard, roseaxis ) = rose( rosecard, roseaxis )
+	   ^
+C:\AG47\mr97a\MR97a.bas(817) error 96: Illegal inside a compound statement or scoped block, found 'function'
+function pickup( subject as string = "" ) as string
+         ^
+C:\AG47\mr97a\MR97a.bas(840) error 96: Illegal inside a compound statement or scoped block, found 'sub'
+sub gtext( row as integer = 1, col as integer = 1, fg as integer = 9, bg as integer = 0, subject as string = "" )
+    ^
+C:\AG47\mr97a\MR97a.bas(861) error 96: Illegal inside a compound statement or scoped block, found 'function'
+function gtext_true_len(subject as string) as integer
+         ^
+C:\AG47\mr97a\MR97a.bas(875) error 96: Illegal inside a compound statement or scoped block, found 'FUNCTION'
+FUNCTION DetectCard%
+         ^
+C:\AG47\mr97a\MR97a.bas(901) error 96: Illegal inside a compound statement or scoped block, found 'DEFINT'
+DEFINT A-Z
+^
+C:\AG47\mr97a\MR97a.bas(902) error 96: Illegal inside a compound statement or scoped block, found 'SUB'
+SUB SBInit
+    ^
+C:\AG47\mr97a\MR97a.bas(917) error 96: Illegal inside a compound statement or scoped block, found 'SUB'
+SUB SBPlay (freq%)
+    ^
+C:\AG47\mr97a\MR97a.bas(961) error 96: Illegal inside a compound statement or scoped block, found 'DEFINT'
+DEFINT A-Z
+^
+C:\AG47\mr97a\MR97a.bas(962) error 96: Illegal inside a compound statement or scoped block, found 'SUB'
+SUB StringPut (Col as integer = 0, Row as integer = 0, subject as string = "" )
+    ^
+C:\AG47\mr97a\MR97a.bas(962) error 133: Too many errors, exiting

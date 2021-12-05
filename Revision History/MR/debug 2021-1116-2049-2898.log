@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(578) error 58: Type mismatch, at parameter 1 (ch) of LOAD_PARTY_STATS()
+load_party_stats party_table(), spells_table()
+                             ^

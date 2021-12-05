@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(1047) error 9: Expected expression, found '''
+		filename = 'tiles\'+RIGHT$(STR$(1000 + o), 3) + "b0808.til"
+		           ^

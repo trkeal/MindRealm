@@ -1,0 +1,31 @@
+C:\AG47\mr97a\inc\sblaster.bas(2) error 61: Illegal inside functions, found 'SUB'
+SUB SBPlay (freq%)
+    ^
+C:\AG47\mr97a\MR97a.bas(8) error 61: Illegal inside functions, found 'DECLARE'
+DECLARE SUB StringPut (XXXX as integer = 0, YYYY as integer = 0, GGGG as string = "" )
+^
+C:\AG47\mr97a\MR97a.bas(10) error 61: Illegal inside functions, found 'declare'
+declare sub nimgput( x0 as integer = 1, y0 as integer = 1, c0 as string = "" )
+^
+C:\AG47\mr97a\MR97a.bas(12) error 61: Illegal inside functions, found 'shared'
+redim shared as names_type shops_table( any )
+      ^
+C:\AG47\mr97a\MR97a.bas(14) error 61: Illegal inside functions, found 'shared'
+dim shared as integer shopi = 0
+    ^
+C:\AG47\mr97a\MR97a.bas(16) error 61: Illegal inside functions, found 'declare'
+declare function pickup( subject as string = "" ) as string
+^
+C:\AG47\mr97a\MR97a.bas(18) error 61: Illegal inside functions, found 'declare'
+declare function gtext_true_len(subject as string) as integer
+^
+C:\AG47\mr97a\MR97a.bas(20) error 61: Illegal inside functions, found 'declare'
+declare sub gtext( row as integer = 1, col as integer = 1, fg as integer = 9, bg as integer = 0, subject as string = "" )
+^
+C:\AG47\mr97a\MR97a.bas(26) error 61: Illegal inside functions, found 'DEFINT'
+DEFINT A-Z
+^
+C:\AG47\mr97a\MR97a.bas(27) error 61: Illegal inside functions, found 'DECLARE'
+DECLARE FUNCTION DetectCard% ()
+^
+C:\AG47\mr97a\MR97a.bas(27) error 133: Too many errors, exiting

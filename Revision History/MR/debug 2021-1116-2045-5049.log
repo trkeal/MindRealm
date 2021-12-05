@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(7) error 58: Type mismatch, at parameter 2 (names_table) of LOAD_NAMES()
+load_names "res\shops.dat", shops()
+                                  ^
+C:\AG47\mr97a\inc\names script.bas(9) error 4: Duplicated definition, shops
+redim shared shops( any ) as names_type
+                             ^
+C:\AG47\mr97a\inc\names script.bas(11) error 1: Argument count mismatch
+sub load_party_stats( ch as integer = 7, party_table( any ) as names_type, spells_table( any ) as names_type )
+                                                                                                             ^
+C:\AG47\mr97a\inc\names script.bas(26) error 73: Array access, index expected, before ')'
+	redim preserve sas( 1 to ch ), nas( 1 to ch )
+	                            ^
+C:\AG47\mr97a\inc\names script.bas(27) error 73: Array access, index expected, before ')'
+	redim preserve s( 1 to ch ), i( 1 to ch, 1 to 6 ), k( 1 to ch, 1 to 6 ), e( 1 to ch, 1 to 6 )
+	                          ^
+C:\AG47\mr97a\inc\names script.bas(94) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+		sas( shopi ) = sync_names( "spell/" + ltrim$( str$( 900 + shopi ) ) + "/sas", shops() )
+		                                                                                      ^
+C:\AG47\mr97a\inc\names script.bas(96) error 58: Type mismatch, at parameter 2 (names) of NAME_AS_STRING()
+		sas( shopi ) = name_as_string( sas( shopi ), shops() )
+		                                                     ^
+C:\AG47\mr97a\inc\names script.bas(98) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+		s( shopi ) = val( sync_names( "spell/" + ltrim$( str$( 900 + shopi ) ) + "/sas", shops() ) )
+		                                                                                         ^
+C:\AG47\mr97a\MR97a.bas(60) error 58: Type mismatch, at parameter 1 (ch) of LOAD_PARTY_STATS()
+load_party_stats ch, party_table(), spells_table()
+                   ^
+C:\AG47\mr97a\MR97a.bas(840) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+m0s$ = sync_names( "m0i/"+ltrim$(str$(1700+m0i))+"/m0s$", shops() )
+                                                                  ^
+C:\AG47\mr97a\MR97a.bas(840) error 133: Too many errors, exiting

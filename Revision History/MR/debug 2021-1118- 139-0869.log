@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(1302) error 58: Type mismatch, at parameter 1
+		tempord = ASC(MID$(GGGG, t, 1))
+		                              ^
+C:\AG47\mr97a\MR97a.bas(1362) error 44: Illegal outside a compound statement
+	#endif
+	 ^

@@ -1,0 +1,9 @@
+C:\AG47\mr97a\MR97a.bas(843) error 7: Expected ')', found ','
+s$ = "[{{"+chr$(&HF8)+"}}" + RIGHT$(str$(1000+val(s1$), 3))
+                                                      ^
+C:\AG47\mr97a\MR97a.bas(848) error 7: Expected ')', found ','
+	s$ = s$ + "/{{6A}}" + RIGHT$(str$(1000+val(s2$), 3))
+	                                               ^
+C:\AG47\mr97a\MR97a.bas(854) error 7: Expected ')', found ','
+	s$ = s$ + "/{{b}}" + RIGHT$(str$(1000+val(s3$), 3))
+	                                              ^

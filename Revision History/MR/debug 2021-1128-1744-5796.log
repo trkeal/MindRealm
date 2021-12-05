@@ -1,0 +1,6 @@
+C:\ag\mr97b\inc\hud\encounter hud.bas(59) error 20: Type mismatch, found '+'
+		if len( chunk+sep+word ) > w then
+		                 ^
+C:\ag\mr97b\inc\hud\encounter hud.bas(63) error 20: Type mismatch
+			chunk+=sep+word		
+			           ^

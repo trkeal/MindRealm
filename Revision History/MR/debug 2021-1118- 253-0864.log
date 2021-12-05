@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(1266) error 24: Invalid data types
+		case "@"+string$(4,chr$(0)) to "@"+string$(4,chr$(255))
+		                                                      ^
+C:\AG47\mr97a\MR97a.bas(1271) error 58: Type mismatch, at parameter 1 of VAL()
+		case left$(subject,2) = "!!" and right$( subject,3)=right$(str$(val(1000+val(right$( subject,3)))),3)
+		                                                                                                ^

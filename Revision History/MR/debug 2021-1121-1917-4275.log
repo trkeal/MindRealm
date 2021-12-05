@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(842) error 73: Array access, index expected, before 'p0'
+	call StringPut( ( 5 + 10 + is0 * 5 - 1 ) * 8, ( 26 + i p0 - 1 ) * 8, right$( str$( 1000 + z( ip0, is0 ) ),3 ) )
+	                                                       ^

@@ -1,0 +1,15 @@
+C:\AG47\mr97a\inc\names script.bas(37) error 181: Invalid assignment/conversion
+		sas( spell ) = sync_names( "spell/906/" + ltrim$( str$( spell ) ) + "/sas", spells_table() )
+		                                                                                           ^
+C:\AG47\mr97a\inc\names script.bas(45) error 181: Invalid assignment/conversion
+		nas( member ) = sync_names( "party/8" + ltrim$( str$( member ) ) + "0/nas", party_table() )
+		                                                                                          ^
+C:\AG47\mr97a\inc\names script.bas(55) error 181: Invalid assignment/conversion
+			spellname = sas( spell )
+			                       ^
+C:\AG47\mr97a\inc\names script.bas(97) error 181: Invalid assignment/conversion
+		sas( shopi ) = sync_names( "spell/" + ltrim$( str$( 900 + shopi ) ) + "/sas", shops() )
+		                                                                                      ^
+C:\AG47\mr97a\inc\names script.bas(99) error 58: Type mismatch, at parameter 1 (subject) of NAME_AS_STRING()
+		sas( shopi ) = name_as_string( sas( shopi ), shops() )
+		                                           ^

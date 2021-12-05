@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(1376) error 72: Array not dimensioned, before '('
+		call StringPut( ( 5 + 10 + is0 * 5 - 1 ) * 8, ( 26 + ip0 - 1 ) * 8, right$( str$( 1000 + z( ip0, is0 ) ),3 ) )
+		                                                                                            ^

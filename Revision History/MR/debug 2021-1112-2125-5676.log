@@ -1,0 +1,33 @@
+C:\AG47\mr97a\MR97a.bas(19) error 4: Duplicated definition
+DECLARE SUB GraphicPut (XXXX, YYYY, GGGG$)
+                                         ^
+C:\AG47\mr97a\MR97a.bas(755) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(g01(0)): BLOAD "tiles\" + GGGG$, VARPTR(g01(0))
+      ^
+C:\AG47\mr97a\MR97a.bas(762) error 4: Duplicated definition
+SUB MouseDriver (AX%, bx%, CX%, DX%)
+                                   ^
+C:\AG47\mr97a\MR97a.bas(763) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(mouse$)
+      ^
+C:\AG47\mr97a\MR97a.bas(764) warning 5(1): Implicit conversion
+C:\AG47\mr97a\MR97a.bas(765) error 14: Expected identifier, found 'Absolute'
+  CALL Absolute(AX%, bx%, CX%, DX%, mouse%)
+       ^
+C:\AG47\mr97a\MR97a.bas(768) error 4: Duplicated definition
+SUB MouseHide
+    ^
+C:\AG47\mr97a\MR97a.bas(773) error 4: Duplicated definition
+FUNCTION MouseInit%
+         ^
+C:\AG47\mr97a\MR97a.bas(776) error 317: Function result assignment outside of the function, found '='
+  MouseInit% = AX%
+             ^
+C:\AG47\mr97a\MR97a.bas(778) warning 13(1): Function result was not explicitly set
+C:\AG47\mr97a\MR97a.bas(780) error 4: Duplicated definition
+SUB MousePut
+    ^
+C:\AG47\mr97a\MR97a.bas(787) error 4: Duplicated definition
+SUB mouseshow
+    ^
+C:\AG47\mr97a\MR97a.bas(787) error 133: Too many errors, exiting

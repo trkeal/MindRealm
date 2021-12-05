@@ -1,0 +1,31 @@
+C:\ag\mr97b\inc\encounter hud.bas(39) error 35: Expected 'END SELECT', found 'end'
+		end if
+		    ^
+C:\ag\mr97b\inc\encounter hud.bas(40) error 35: Expected 'END SELECT', found 'loop'
+	loop
+	^
+C:\ag\mr97b\inc\encounter hud.bas(41) error 35: Expected 'END SELECT', found 'end'
+end sub
+    ^
+C:\ag\mr97b\MR97b.bas(156) error 181: Invalid assignment/conversion
+tempstr = "{ " + gametitle + " }"
+                             ^
+C:\ag\mr97b\MR97b.bas(160) error 58: Type mismatch, at parameter 3 of STRINGPUT()
+CALL StringPut( ( tempcol - 1 ) * 8, ( temprow - 1 ) * 8, tempstr )
+                                                                  ^
+C:\ag\mr97b\MR97b.bas(162) error 181: Invalid assignment/conversion
+tempstr = copyright
+          ^
+C:\ag\mr97b\MR97b.bas(166) error 58: Type mismatch, at parameter 3 of STRINGPUT()
+CALL StringPut( ( tempcol - 1 ) * 8, ( temprow - 1 ) * 8, tempstr )
+                                                                  ^
+C:\ag\mr97b\MR97b.bas(306) error 72: Array not dimensioned, before '('
+85 lxa(1) = -5: lya(1) = -2: lxa(2) = -2: lya(2) = -5: FOR xx = 2 TO 39: FOR yy = 2 TO 24: s$ = CHR$(g(yy, xx)): IF INSTR(1, ta$(2), s$) = 0 THEN 88
+       ^
+C:\ag\mr97b\MR97b.bas(306) error 72: Array not dimensioned, before '('
+85 lxa(1) = -5: lya(1) = -2: lxa(2) = -2: lya(2) = -5: FOR xx = 2 TO 39: FOR yy = 2 TO 24: s$ = CHR$(g(yy, xx)): IF INSTR(1, ta$(2), s$) = 0 THEN 88
+                    ^
+C:\ag\mr97b\MR97b.bas(306) error 72: Array not dimensioned, before '('
+85 lxa(1) = -5: lya(1) = -2: lxa(2) = -2: lya(2) = -5: FOR xx = 2 TO 39: FOR yy = 2 TO 24: s$ = CHR$(g(yy, xx)): IF INSTR(1, ta$(2), s$) = 0 THEN 88
+                                 ^
+C:\ag\mr97b\MR97b.bas(306) error 133: Too many errors, exiting

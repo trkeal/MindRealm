@@ -1,0 +1,7 @@
+C:\AG47\mr97a\inc\names.bas(24) error 16: Expected ',', found ')'
+		close_offset = instr( open_offset + len( open_sep ) ), subject, close_sep)
+		                                                    ^
+C:\AG47\mr97a\inc\names.bas(53) error 16: Expected ',', found ')'
+		close_offset = instr( open_offset + len( open_sep ) ), subject, close_sep)
+		                                                    ^
+C:\AG47\mr97a\inc\names.bas(63) warning 13(1): Function result was not explicitly set

@@ -1,0 +1,3 @@
+C:\AG47\mr97a\inc\spell hud.bas(10) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+	dim as integer spellct = val( sync_names( "spell/count", spell_table() ) )
+	                                                                       ^

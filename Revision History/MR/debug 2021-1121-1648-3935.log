@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(4) error 87: Var-len strings cannot be initialized, before ','
+dim shared as string gametitle = string$( 0, 0 ), copyright = string$( 0, 0 )
+                                                ^
+C:\AG47\mr97a\MR97a.bas(18) error 4: Duplicated definition, copyright
+dim shared as string copyright
+                     ^

@@ -1,0 +1,12 @@
+C:\AG47\mr97a\inc\names script.bas(11) error 1: Argument count mismatch
+sub load_party_stats( ch as integer = 7, party_table( any ) as names_type, spells_table( any ) as names_type )
+                                                                                                             ^
+C:\AG47\mr97a\inc\names script.bas(26) error 73: Array access, index expected, before ')'
+	redim preserve sas( 1 to ch ), nas( 1 to ch )
+	                            ^
+C:\AG47\mr97a\inc\names script.bas(27) error 73: Array access, index expected, before ')'
+	redim preserve s( 1 to ch ), i( 1 to ch, 1 to 6 ), k( 1 to ch, 1 to 6 ), e( 1 to ch, 1 to 6 )
+	                          ^
+C:\AG47\mr97a\MR97a.bas(61) error 58: Type mismatch, at parameter 1 (ch) of LOAD_PARTY_STATS()
+load_party_stats ch, party_table(), spells_table()
+                   ^

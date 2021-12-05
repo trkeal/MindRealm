@@ -1,0 +1,32 @@
+C:\AG47\mr97a\MR97a.bas(7) error 24: Invalid data types, before ')'
+DECLARE SUB StringPut (Col as integer = 0, Row as integer = 0, subject as string = "", format = "font" )
+                                                                                                       ^
+C:\AG47\mr97a\MR97a.bas(1224) error 24: Invalid data types, before ')'
+SUB StringPut (Col as integer = 0, Row as integer = 0, subject as string = "", format = "font" )
+                                                                                               ^
+C:\AG47\mr97a\MR97a.bas(1224) warning 36(1): Mismatching parameter initializer, at parameter 4 (format) of StringPut()
+C:\AG47\mr97a\MR97a.bas(1257) error 181: Invalid assignment/conversion
+		tempord = subject
+		          ^
+C:\AG47\mr97a\MR97a.bas(1260) error 24: Invalid data types
+		case chr$(32)
+		            ^
+C:\AG47\mr97a\MR97a.bas(1262) error 24: Invalid data types
+		case chr$(0) to chr$(255)
+		                        ^
+C:\AG47\mr97a\MR97a.bas(1267) error 24: Invalid data types
+		case "@"+string$(4,0) to "@"+string$(4,255)
+		                                          ^
+C:\AG47\mr97a\MR97a.bas(1268) error 58: Type mismatch, at parameter 1
+			subject2 = mid$(tempord,2) + "_"+RIGHT$(STR$(1000 + 1), 3) + ".til"
+			                           ^
+C:\AG47\mr97a\MR97a.bas(1272) error 24: Invalid data types
+		case "!!000" to "!!255"
+		                ^
+C:\AG47\mr97a\MR97a.bas(1273) error 58: Type mismatch, at parameter 1
+			subject2 = "map_" + mid$(tempord,3) + ".til"
+			                                    ^
+C:\AG47\mr97a\MR97a.bas(1277) error 35: Expected 'END SELECT', found 'END'
+		END IF
+		    ^
+C:\AG47\mr97a\MR97a.bas(1277) error 133: Too many errors, exiting

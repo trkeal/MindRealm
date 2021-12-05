@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(637) error 73: Array access, index expected, before ')'
+	sa$(i)=sync_names("spell/"+ltrim$(str$(900+i))+"/sa$", shops() )
+	     ^
+C:\AG47\mr97a\MR97a.bas(638) error 73: Array access, index expected, before ')'
+	s(i)=val( sync_names("spell/"+ltrim$(str$(900+i))+"/sa$", shops() ) )
+	   ^

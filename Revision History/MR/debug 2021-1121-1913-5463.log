@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(842) error 58: Type mismatch, at parameter 3 of STRINGPUT()
+	call StringPut( ( 5+10 + is0 * 5 - 1 ) * 8, (26 + ip0 - 1 ) * 8, z(ip0,is0) )
+	                                                                            ^

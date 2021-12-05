@@ -1,0 +1,6 @@
+C:\AG47\mr97a\inc\names script.bas(40) error 1: Argument count mismatch, found 'party_table'
+		nas( member ) = name_as_string( "party/8" + ltrim$( str$( member ) ) + "0/nas", party_table() )
+		                                                                                ^
+C:\AG47\mr97a\inc\names script.bas(96) error 1: Argument count mismatch, found 'shops'
+		sas( shopi ) = name_as_string( sas( shopi ), shops() )
+		                                             ^

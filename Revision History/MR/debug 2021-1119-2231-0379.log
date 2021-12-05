@@ -1,0 +1,31 @@
+C:\AG47\mr97a\inc\random.bas(9) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "Timer:" )
+                                                         ^
+C:\AG47\mr97a\inc\random.bas(15) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "ú " + STR$(TIMER) )
+                                                                    ^
+C:\AG47\mr97a\inc\random.bas(19) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "ú initialized" )  
+                                                                 ^
+C:\AG47\mr97a\inc\random.bas(23) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "ú activated" )
+                                                               ^
+C:\AG47\mr97a\inc\random.bas(31) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "ú randomized " + STR$(rrand) )
+                                                                               ^
+C:\AG47\mr97a\inc\random.bas(35) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "Time:" )
+                                                        ^
+C:\AG47\mr97a\inc\random.bas(39) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "ú " + TIME$ )
+                                                              ^
+C:\AG47\mr97a\inc\random.bas(43) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "Date:" )
+                                                        ^
+C:\AG47\mr97a\inc\random.bas(47) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "ú " + DATE$ )
+                                                              ^
+C:\AG47\mr97a\inc\random.bas(51) error 58: Type mismatch, at parameter 3 of GTEXT()
+  call gtext( ( pos()-1)*8, ( csrlin - 1 ) * 8, "Press the spacebar to start..." )
+                                                                                 ^
+C:\AG47\mr97a\inc\random.bas(51) error 133: Too many errors, exiting

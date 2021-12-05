@@ -1,0 +1,3 @@
+C:\AG47\mr97a\inc\names script.bas(96) error 1: Argument count mismatch, found 'shops'
+		sas( shopi ) = name_as_string( sas( shopi ), shops() )
+		                                             ^

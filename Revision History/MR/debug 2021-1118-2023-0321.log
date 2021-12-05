@@ -1,0 +1,9 @@
+C:\AG47\mr97a\MR97a.bas(1269) error 29: Expected 'LOOP', found 'offset'
+	NEXT offset
+	     ^
+C:\AG47\mr97a\MR97a.bas(1273) error 29: Expected 'LOOP', found 'END'
+END SUB
+    ^
+C:\AG47\mr97a\MR97a.bas(1274) error 29: Expected 'LOOP'
+END SUB
+    ^

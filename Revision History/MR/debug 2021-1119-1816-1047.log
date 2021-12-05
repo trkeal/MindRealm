@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(67) error 58: Type mismatch, at parameter 1 (ch) of LOAD_PARTY_STATS()
+load_party_stats ch, party_table(), spells_table()
+                   ^
+C:\AG47\mr97a\MR97a.bas(386) error 58: Type mismatch, at parameter 1 of NIMGPUT()
+call nimgput( x0, y0, c0$ )
+                ^
+C:\AG47\mr97a\MR97a.bas(416) error 58: Type mismatch, at parameter 1 of NIMGPUT()
+call nimgput( x0, y0, c0$ )
+                ^
+C:\AG47\mr97a\MR97a.bas(608) error 58: Type mismatch, at parameter 1 (ch) of LOAD_PARTY_STATS()
+load_party_stats ch, party_table(), spells_table()
+                   ^
+C:\AG47\mr97a\MR97a.bas(1109) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H60)
+     ^
+C:\AG47\mr97a\MR97a.bas(1110) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H80)
+     ^
+C:\AG47\mr97a\MR97a.bas(1112) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H2, &HFF)
+     ^
+C:\AG47\mr97a\MR97a.bas(1113) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H21)
+     ^
+C:\AG47\mr97a\MR97a.bas(1118) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H60)
+     ^
+C:\AG47\mr97a\MR97a.bas(1119) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H80)
+     ^
+C:\AG47\mr97a\MR97a.bas(1119) error 133: Too many errors, exiting

@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(1416) error 58: Type mismatch, at parameter 1 of TRUNCATE()
+			co = truncate( z( ip0, is0 ), 3 )
+			                            ^
+C:\AG47\mr97a\MR97a.bas(1427) error 1: Argument count mismatch
+function truncate( subject as string = "", length as integer = 1 ) as string
+                                                                      ^

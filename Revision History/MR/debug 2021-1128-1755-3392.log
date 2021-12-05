@@ -1,0 +1,3 @@
+C:\ag\mr97b\inc\hud\encounter hud.bas(84) error 3: Expected End-of-Line, found 'subject'
+	gtext y1, x1, 12, 4 subject
+	                    ^

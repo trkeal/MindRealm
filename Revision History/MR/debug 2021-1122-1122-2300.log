@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(409) error 14: Expected identifier, found 'spellshud'
+call spellshud(p0)
+     ^

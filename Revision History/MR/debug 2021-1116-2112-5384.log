@@ -1,0 +1,6 @@
+C:\AG47\mr97a\inc\names script.bas(22) error 14: Expected identifier
+	dim as string spell_k = string$( 0, 0 ), spell_k_sync = string$( 0, 0 ), spellplus_k = string$( 0, 0 ), spellplus_k_sync = string$( 0, 0 ), 
+	                                                                                                                                          ^
+C:\AG47\mr97a\inc\names script.bas(25) error 14: Expected identifier
+	dim as string spell_e = string$( 0, 0 ), spell_e_sync = string$( 0, 0 ), spellplus_e = string$( 0, 0 ), spellplus_e_sync = string$( 0, 0 ), 
+	                                                                                                                                          ^

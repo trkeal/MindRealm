@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(254) error 72: Array not dimensioned, before '('
+85 lx(1) = -5: ly(1) = -2: lx(2) = -2: ly(2) = -5: FOR xx = 2 TO 39: FOR yy = 2 TO 24: s$ = CHR$(g(yy, xx)): IF INSTR(1, ta$(2), s$) = 0 THEN 88
+      ^
+C:\AG47\mr97a\MR97a.bas(254) error 72: Array not dimensioned, before '('
+85 lx(1) = -5: ly(1) = -2: lx(2) = -2: ly(2) = -5: FOR xx = 2 TO 39: FOR yy = 2 TO 24: s$ = CHR$(g(yy, xx)): IF INSTR(1, ta$(2), s$) = 0 THEN 88
+                  ^
+C:\AG47\mr97a\MR97a.bas(254) error 72: Array not dimensioned, before '('
+85 lx(1) = -5: ly(1) = -2: lx(2) = -2: ly(2) = -5: FOR xx = 2 TO 39: FOR yy = 2 TO 24: s$ = CHR$(g(yy, xx)): IF INSTR(1, ta$(2), s$) = 0 THEN 88
+                              ^
+C:\AG47\mr97a\MR97a.bas(254) error 72: Array not dimensioned, before '('
+85 lx(1) = -5: ly(1) = -2: lx(2) = -2: ly(2) = -5: FOR xx = 2 TO 39: FOR yy = 2 TO 24: s$ = CHR$(g(yy, xx)): IF INSTR(1, ta$(2), s$) = 0 THEN 88
+                                          ^
+C:\AG47\mr97a\MR97a.bas(255) error 72: Array not dimensioned, before '('
+86 ll = 0: lc = 0: FOR x0 = xx - 1 TO xx + 1: FOR y0 = yy - 1 TO yy + 1: s1$ = CHR$(g(y0, x0)): GOSUB 150: IF ll > lc THEN lc = ll: IF ll < 3 THEN lx(ll) = x0: ly(ll) = y0
+                                                                                                                                                      ^
+C:\AG47\mr97a\MR97a.bas(255) error 72: Array not dimensioned, before '('
+86 ll = 0: lc = 0: FOR x0 = xx - 1 TO xx + 1: FOR y0 = yy - 1 TO yy + 1: s1$ = CHR$(g(y0, x0)): GOSUB 150: IF ll > lc THEN lc = ll: IF ll < 3 THEN lx(ll) = x0: ly(ll) = y0
+                                                                                                                                                                   ^
+C:\AG47\mr97a\MR97a.bas(256) error 72: Array not dimensioned, before '('
+87 NEXT y0: NEXT x0: IF ((ll = 2) * (ABS(lx(1) - lx(2)) < 2) * (ABS(ly(1) - ly(2)) < 2)) + (ll < 2) THEN c3 = 1: x0 = xx: y0 = yy: GOSUB 200
+                                            ^
+C:\AG47\mr97a\MR97a.bas(311) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(t$(c3))) + 1: c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                             ^
+C:\AG47\mr97a\MR97a.bas(311) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(t$(c3))) + 1: c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                      ^
+C:\AG47\mr97a\MR97a.bas(312) error 72: Array not dimensioned, before '('
+201 IF c3 = 1 THEN c0 = INT(RND(1) * (LEN(t$(c3)) - 1)) + 1: c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                             ^
+C:\AG47\mr97a\MR97a.bas(312) error 133: Too many errors, exiting

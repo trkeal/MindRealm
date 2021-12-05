@@ -1,0 +1,33 @@
+C:\AG47\mr97a\MR97a.bas(6) warning 39(1): Redefinition of intrinsic
+C:\AG47\mr97a\MR97a.bas(6) warning 39(1): Redefinition of intrinsic
+C:\AG47\mr97a\MR97a.bas(37) error 73: Array access, index expected, before '='
+FOR i% = 1 TO 57
+       ^
+C:\AG47\mr97a\MR97a.bas(40) error 73: Array access, index expected, before ','
+  MID$(mouse$, i%, 1) = H$
+                 ^
+C:\AG47\mr97a\MR97a.bas(41) error 73: Array access, index expected
+NEXT i%
+     ^
+C:\AG47\mr97a\MR97a.bas(42) error 11: Expected constant, found ','
+DATA 55,89,E5,8B,5E,0C,8B,07,50,8B,5E,0A,8B,07,50,8B
+             ^
+C:\AG47\mr97a\MR97a.bas(43) error 3: Expected End-of-Line, found 'B'
+DATA 5E,08,8B,0F,8B,5E,06,8B,17,5B,58,1E,07,CD,33,53
+            ^
+C:\AG47\mr97a\MR97a.bas(44) error 3: Expected End-of-Line, found 'B'
+DATA 8B,5E,0C,89,07,58,8B,5E,0A,89,07,8B,5E,08,89,0F
+      ^
+C:\AG47\mr97a\MR97a.bas(45) error 3: Expected End-of-Line, found 'B'
+DATA 8B,5E,06,89,17,5D,CA,08,00
+      ^
+C:\AG47\mr97a\MR97a.bas(47) error 10: Expected '=', found 'OFF'
+KEY OFF
+    ^
+C:\AG47\mr97a\MR97a.bas(84) error 3: Expected End-of-Line, found 'ON'
+TIMER ON
+      ^
+C:\AG47\mr97a\MR97a.bas(101) error 73: Array access, index expected, before '='
+c$ = ""
+   ^
+C:\AG47\mr97a\MR97a.bas(101) error 133: Too many errors, exiting

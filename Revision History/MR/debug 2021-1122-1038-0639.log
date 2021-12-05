@@ -1,0 +1,6 @@
+C:\AG47\mr97a\inc\stat hud.bas(17) error 181: Invalid assignment/conversion
+		statname( is0 ) = name_as_string( sync_names( "stat/" + right$( str$( is0 ), 1 )+"/name", stats_table() ) )
+		                                                                                                          ^
+C:\AG47\mr97a\inc\stat hud.bas(25) error 58: Type mismatch, at parameter 1 of LEFT()
+		co = truncate( left$( statname( is0 ), 2 ), 3 )		
+		                                         ^

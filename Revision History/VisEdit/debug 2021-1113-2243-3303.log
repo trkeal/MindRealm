@@ -1,0 +1,3 @@
+C:\AG47\mr97a\VisEdit96a.bas(32) error 10: Expected '='
+if c$ = chr$(27) then outro
+                      ^

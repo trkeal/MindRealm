@@ -1,0 +1,228 @@
+---=== Mindrealm 97a: v07 / 1:1 QBasic to FreeBASIC ===---
+
+=== MR97a Developer Notes 2021-1113-1930 ===
+
++ Adjusted variable names and declarations
++ Swapped in replacement Mouse and Sprite routines
++ Updated randomizer seed
+
++  Updated sprite loader
+
++ Added level count ticker
+
+=== MR97a Developer Notes 2021-1114-2328 ===
+
++ Added Mutual Text/Graphics Handler
++ Embedded Status Sprites into HUD
+
+=== MR97a Developer Notes 2021-1115-1827 ===
+
++ streamlined pickup code
+
+=== MR97a Developer Notes 2021-1115-2011 ===
+
++ improved names table routines
+
++ updated spell/pickup scripts
+
++ party stats scripting wip
+
+=== MR97a Developer Notes 2021-1117-1517 ===
+
++ glitched spells loader (wip)
+
+=== MR97a Developer Notes 2021-1117-1952 ===
+
++ spells/loader corrected (100%)
+
+=== MR97a Developer Notes 2021-1117-2308 ===
+
++ Created vis2bsv tool (100%)
++ Individual party member sprites (100%)
+
+=== MR97a Developer Notes 2021-1117-2344 ===
+
++ Updated party member HUD sprite (100%)
+---=== Mindrealm 97a: v07 / 1:1 QBasic to FreeBASIC ===---
+
+=== MR97a Developer Notes 2021-1113-1930 ===
+
++ Adjusted variable names and declarations
++ Swapped in replacement Mouse and Sprite routines
++ Updated randomizer seed
+
++  Updated sprite loader
+
++ Added level count ticker
+
+=== MR97a Developer Notes 2021-1114-2328 ===
+
++ Added Mutual Text/Graphics Handler
++ Embedded Status Sprites into HUD
+
+=== MR97a Developer Notes 2021-1115-1827 ===
+
++ streamlined pickup code
+
+=== MR97a Developer Notes 2021-1115-2011 ===
+
++ improved names table routines
+
++ updated spell/pickup scripts
+
++ party stats scripting wip
+
+=== MR97a Developer Notes 2021-1117-1517 ===
+
++ glitched spells loader (wip)
+
+=== MR97a Developer Notes 2021-1117-1952 ===
+
++ spells/loader corrected (100%)
+
+=== MR97a Developer Notes 2021-1117-2308 ===
+
++ Created vis2bsv tool (100%)
++ Individual party member sprites (100%)
+
+=== MR97a Developer Notes 2021-1117-2344 ===
+
++ Updated party member HUD sprite (100%)
++ Corrected spell learning from Mystic Orbs (100%)
+
+=== MR97a Developer Notes 2021-1118-0105 ===
+
++ Relabeled "Dev ReadMe" as "Developer Notes"
++ Remastered "MR97a" Party Member, Font and Map sprites
+
+=== MR97a Developer Notes 2021-1118-1904 ===
+
++ Isolated obsolete source modules
++ Isolated QBasic BSave sprites into Map, Font, Party
+
+=== MR97a Developer Notes 2021-1118-2024 ===
+
++ Updated Graphics pipeline
++ Splash Softlock
+
+=== MR97a Developer Notes 2021-1118-2104 ===
+
++ Main program rollback
++ Sprite calling update
+
+=== MR97a Developer Notes 2021-1119-1937 ===
+
++ source streamlining
++ party member sprites glitch
+
+=== MR97a Developer Notes 2021-1119-2000 ===
+
++ font path fix
++ hud fix
+
+=== MR97a Developer Notes 2021-1119-2326 ===
+
++ 1:1
++ 100 percent ok
++ hud update
+
+=== MR97a Developer Notes 2021-1119-2351 ===
+
++ 1:1
++ 100 percent ok
++ gtext macro update
+
+=== MR97a Developer Notes 2021-1120-1751 ===
+
++ 1:1
++ 100 percent ok
++ player name hud update
++ bombs hud update
+
+=== MR97a Developer Notes 2021-1120-2002 ===
+
++ added strategy guide to readme.txt documentation
+
+=== MR97a Developer Notes 2021-1121-1702 ===
+
++ improved randomizer
++ updated window title
++ commented variables
++ placed border render into dedicated subroutine
+
+=== MR97a Developer Notes 2021-1121-1743 ===
+
++ added turn counter
+
+=== MR97a Developer Notes 2021-1121-1858 ===
+
++ increased window size to 640x480 pixels
++ scaled sprite graphics 2x
++ scaled vector graphics 2x
+
+=== MR97a Developer Notes 2021-1121-2118 ===
+
++ added party statistics hud
+
+=== MR97a Developer Notes 2021-1121-2152 ===
+
++ improved party statistics hud
+
+=== MR97a Developer Notes 2021-1122-1131 ===
+
++ added spells hud
++ corrected party statistics hud
+
+=== MR97b Developer Notes 2021-1124-2304 ===
+
++ re-branded as: "Mind Realm 97b"
+
++ rolled back to: http://puzzlum.net/showcase/vault/Mindrealm/builds/mr97a%202021-1122-1132-1%20to%201%20100%20percent%20corrected%20hud%20ok.7z
+
++ dropped in place: ".\res\gamedata.dat" from http://puzzlum.net/showcase/vault/Mindrealm/builds/mr97a%202021-1124-2017-bizzare%20num%20lock%20one%20turn%20only%20behaviors%20wip.7z
+
++ dropped in place: ".\inc\load gamedata.bas" from http://puzzlum.net/showcase/vault/Mindrealm/builds/mr97a%202021-1124-2017-bizzare%20num%20lock%20one%20turn%20only%20behaviors%20wip.7z
+
+=== MR97b Developer Notes 2021-1127-2056 ===
+
++ 1:1 100 percent ok
+
++ potential "Flare" failing to cast for Fura.
+
+=== MR97b Developer Notes 2021-1127-2108 ===
+
++ 1:1 100 percent ok
+
++ corrected border routine erasure region
+
+=== MR97b Developer Notes 2021-1127-2208 ===
+
++ 1:1 100 percent ok
+
++ syncronized spells hud attributes to gamedata
+
++ For some reason Fura is not able to immediately cast Flare and must level that spell up first.
+
+=== MR97b Developer Notes 2021-1128-1346 ===
+
++ 1:1 ok
+
++ encounter panel needs work
+
+=== MR97b Developer Notes 2021-1128-1846 ===
+
++ 1:1 ok
+
++ encounter panel at almost 100% (wip)
+
+=== MR97b Developer Notes 2021-1128-1846 ===
+
++ 1:1 100 percent ok
+
++ encounter panel fixed
+
+=== MR97b Developer Notes 2021-1129-1636 ===
+
++ 1:1 100 percent ok
+
++ disabled continuous encounter dumping

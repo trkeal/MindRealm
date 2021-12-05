@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(33) error 87: Var-len strings cannot be initialized
+dim shared as string gametitle = string$( 0, 0 )
+                                               ^

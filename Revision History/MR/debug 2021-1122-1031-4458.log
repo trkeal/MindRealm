@@ -1,0 +1,9 @@
+C:\AG47\mr97a\inc\spell hud.bas(8) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+	dim as integer xo=0, yo=0, is0 = 0, ip0 = 0, statct = val(sync_names("stat/count", stats_table())), chrow = 0
+	                                                                                                ^
+C:\AG47\mr97a\inc\spell hud.bas(25) error 99: No matching overloaded function, LEFT()
+		co = "KLG:" + truncate( left$( k( p0, is0 ), 2 ), 3 )		
+		                                               ^
+C:\AG47\mr97a\inc\spell hud.bas(30) error 99: No matching overloaded function, LEFT()
+		co = "EXP:" + truncate( left$( e( p0, is0 ), 2 ), 3 )		
+		                                               ^

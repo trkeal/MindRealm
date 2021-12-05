@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(13) error 73: Array access, index expected, before ')'
+gametitle = name_as_string( sync_names("gametitle", about_table) )
+                                                               ^
+C:\AG47\mr97a\MR97a.bas(17) error 73: Array access, index expected, before ')'
+copyright = name_as_string( sync_names("copyright", about_table) )
+                                                               ^

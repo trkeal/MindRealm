@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(407) error 1: Argument count mismatch, found 'party'
+call nimgput( x0, y0, c0$, "party" )
+                           ^
+C:\AG47\mr97a\MR97a.bas(566) error 96: Illegal inside a compound statement or scoped block, found 'shared'
+redim shared as names_type rose_table( any )
+      ^
+C:\AG47\mr97a\MR97a.bas(569) error 96: Illegal inside a compound statement or scoped block, found 'shared'
+redim shared rose( 0 to 4, 1 to 2 ) as integer
+      ^
+C:\AG47\mr97a\MR97a.bas(582) error 44: Illegal outside a compound statement
+#endif
+ ^
+C:\AG47\mr97a\MR97a.bas(663) error 1: Argument count mismatch, found 'map'
+call nimgput( 3, 1, nimg(p0), "map" )
+                              ^
+C:\AG47\mr97a\MR97a.bas(934) error 96: Illegal inside a compound statement or scoped block, found 'function'
+function pickup( subject as string = "" ) as string
+         ^
+C:\AG47\mr97a\MR97a.bas(957) error 96: Illegal inside a compound statement or scoped block, found 'sub'
+sub gtext( row as integer = 1, col as integer = 1, fg as integer = 9, bg as integer = 0, subject as string = "" )
+    ^
+C:\AG47\mr97a\MR97a.bas(978) error 96: Illegal inside a compound statement or scoped block, found 'function'
+function gtext_true_len(subject as string) as integer
+         ^
+C:\AG47\mr97a\MR97a.bas(992) error 96: Illegal inside a compound statement or scoped block, found 'FUNCTION'
+FUNCTION DetectCard%
+         ^
+C:\AG47\mr97a\MR97a.bas(1018) error 96: Illegal inside a compound statement or scoped block, found 'DEFINT'
+DEFINT A-Z
+^
+C:\AG47\mr97a\MR97a.bas(1018) error 133: Too many errors, exiting

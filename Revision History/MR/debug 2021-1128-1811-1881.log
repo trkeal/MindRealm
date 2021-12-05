@@ -1,0 +1,6 @@
+C:\ag\mr97b\MR97b.bas(421) error 14: Expected identifier, found 'encounterhud'
+call encounterhud(r$)
+     ^
+C:\ag\mr97b\MR97b.bas(860) error 14: Expected identifier, found 'encounterhud'
+call encounterhud(r$)
+     ^

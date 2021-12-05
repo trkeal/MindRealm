@@ -1,0 +1,9 @@
+C:\AG47\mr97a\MR97a.bas(14) error 181: Invalid assignment/conversion
+gametitle = name_as_string( sync_names("gametitle", about_table() ) )
+                                                                    ^
+C:\AG47\mr97a\MR97a.bas(48) error 20: Type mismatch, found '+'
+tempstr = "{ " + gametitle + " }"
+                           ^
+C:\AG47\mr97a\MR97a.bas(146) error 20: Type mismatch, found '+'
+tempstr = "{ " + gametitle + " }"
+                           ^

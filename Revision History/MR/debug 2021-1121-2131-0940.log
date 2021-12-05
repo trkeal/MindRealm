@@ -1,0 +1,13 @@
+C:\AG47\mr97a\MR97a.bas(1424) error 29: Expected 'LOOP', found 'ip0'
+	next ip0
+	     ^
+C:\AG47\mr97a\MR97a.bas(1426) error 29: Expected 'LOOP', found 'end'
+end sub
+    ^
+C:\AG47\mr97a\MR97a.bas(1428) error 61: Illegal inside functions, found 'function'
+function truncate( subject as string = "", length as integer = 1 ) as string
+         ^
+C:\AG47\mr97a\MR97a.bas(1433) error 29: Expected 'LOOP'
+end function
+    ^
+C:\AG47\mr97a\MR97a.bas(1403) error 104: Branching to other functions or to module-level

@@ -1,0 +1,21 @@
+C:\AG47\mr97a\VisEdit96a.bas(51) error 3: Expected End-of-Line, found ','
+156 IF c$ = CHR$(27) THEN SCREEN 0, 0, 0, 0: WIDTH 80: COLOR 15, 1, 1: CLS : END
+                                                                  ^
+C:\AG47\mr97a\VisEdit96a.bas(96) error 3: Expected End-of-Line, found ','
+410 SCREEN 0, 0, 0, 0: WIDTH 80: COLOR 15, 1, 1: CLS
+                                            ^
+C:\AG47\mr97a\VisEdit96a.bas(105) error 3: Expected End-of-Line, found ','
+510 SCREEN 0, 0, 0, 0: WIDTH 80: COLOR 15, 1, 1: CLS
+                                            ^
+C:\AG47\mr97a\VisEdit96a.bas(114) error 3: Expected End-of-Line, found ','
+610 SCREEN 0, 0, 0, 0: WIDTH 80: COLOR 15, 1, 1: CLS
+                                            ^
+C:\AG47\mr97a\VisEdit96a.bas(145) error 3: Expected End-of-Line, found ','
+SCREEN 0, 0, 0, 0: WIDTH 80: COLOR 15, 0, 1: CLS : VIEW PRINT 1 TO 25
+                                        ^
+C:\AG47\mr97a\VisEdit96a.bas(146) error 10: Expected '=', found '*.VIS'
+FILES "*.VIS"
+      ^
+C:\AG47\mr97a\VisEdit96a.bas(172) error 3: Expected End-of-Line, found ','
+SCREEN 0, 0, 0, 0: WIDTH 40: COLOR 15, 1, 1: CLS : VIEW PRINT 1 TO 25
+                                        ^

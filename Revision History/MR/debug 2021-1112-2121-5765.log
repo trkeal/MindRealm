@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(14) error 4: Duplicated definition
+DECLARE SUB MouseDriver (AX%, bx%, CX%, DX%)
+                                           ^
+C:\AG47\mr97a\MR97a.bas(15) error 4: Duplicated definition
+DECLARE FUNCTION MouseInit% ()
+                             ^
+C:\AG47\mr97a\MR97a.bas(16) error 4: Duplicated definition
+DECLARE SUB mouseshow ()
+                       ^
+C:\AG47\mr97a\MR97a.bas(17) error 4: Duplicated definition
+DECLARE SUB mousestatus (lb%, RB%, Xmouse%, Ymouse%)
+                                                   ^
+C:\AG47\mr97a\MR97a.bas(19) error 4: Duplicated definition, mouse
+DIM SHARED mouse$
+           ^
+C:\AG47\mr97a\MR97a.bas(22) error 4: Duplicated definition
+DECLARE SUB GraphicPut (XXXX, YYYY, GGGG$)
+                                         ^
+C:\AG47\mr97a\MR97a.bas(43) error 4: Duplicated definition, filemode
+DIM AS INTEGER filemode = FREEFILE
+                        ^
+C:\AG47\mr97a\MR97a.bas(662) error 72: Array not dimensioned, before '('
+1620 IF r$ <> "" THEN LOCATE 25, 3: COLOR 9, 0: PRINT r$; : COLOR 3: PRINT STRINgaa$(36 - LEN(r$), "Ä"); : COLOR 15, 0
+                                                                                     ^
+C:\AG47\mr97a\MR97a.bas(756) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(g01(0)): BLOAD "tiles\" + GGGG$, VARPTR(g01(0))
+      ^
+C:\AG47\mr97a\MR97a.bas(763) error 4: Duplicated definition
+SUB MouseDriver (AX%, bx%, CX%, DX%)
+                                   ^
+C:\AG47\mr97a\MR97a.bas(763) error 133: Too many errors, exiting

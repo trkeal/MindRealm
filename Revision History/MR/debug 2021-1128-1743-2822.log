@@ -1,0 +1,12 @@
+C:\ag\mr97b\inc\hud\encounter hud.bas(48) error 4: Duplicated definition, chunk
+	dim as string chunk = string$( 0, 0 ), word = string$( 0, 0 )
+	                    ^
+C:\ag\mr97b\inc\hud\encounter hud.bas(54) error 3: Expected End-of-Line, found 'then'
+		while len(chunk) > w then
+		                     ^
+C:\ag\mr97b\inc\hud\encounter hud.bas(59) error 20: Type mismatch, found '+'
+		if len( chunk+sep+word ) > w then
+		                 ^
+C:\ag\mr97b\inc\hud\encounter hud.bas(63) error 20: Type mismatch
+			chunk+=sep+word		
+			           ^

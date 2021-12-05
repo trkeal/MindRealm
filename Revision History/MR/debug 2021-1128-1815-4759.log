@@ -1,0 +1,6 @@
+C:\ag\mr97b\inc\hud\encounter hud.bas(32) error 58: Type mismatch, at parameter 2 (names_table) of LOAD_NAMES_FROM_BUFFER()
+	call load_names_from_buffer( dump, text_table() )
+	                                                ^
+C:\ag\mr97b\inc\hud\encounter hud.bas(35) error 58: Type mismatch, at parameter 2 (names_table) of SAVE_NAMES()
+	call save_names( "res\encounter.txt", text_table() )
+	                                                   ^

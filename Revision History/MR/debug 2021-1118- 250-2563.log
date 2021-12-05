@@ -1,0 +1,27 @@
+C:\AG47\mr97a\MR97a.bas(1263) error 20: Type mismatch, found ')'
+			subject2 = "font_"+RIGHT$(STR$(1000 + tempord), 3) + ".til"
+			                                             ^
+C:\AG47\mr97a\MR97a.bas(1266) error 24: Invalid data types
+		case "@"+string$(4,0) to "@"+string$(4,255)
+		                                          ^
+C:\AG47\mr97a\MR97a.bas(1271) error 58: Type mismatch, at parameter 1 of VAL()
+		case left$(subject,2) = "!!" and right$( subject2,3)=right$(str$(val(1000+val(right$( subject,3)))),3)
+		                                                                                                 ^
+C:\AG47\mr97a\MR97a.bas(1276) error 35: Expected 'END SELECT', found 'END'
+		END IF
+		    ^
+C:\AG47\mr97a\MR97a.bas(1278) error 35: Expected 'END SELECT', found 'loop'
+	loop
+	^
+C:\AG47\mr97a\MR97a.bas(1282) error 35: Expected 'END SELECT', found 'END'
+END SUB
+    ^
+C:\AG47\mr97a\MR97a.bas(1284) error 61: Illegal inside functions, found 'SUB'
+SUB WriteReg (Reg%, Value%)
+    ^
+C:\AG47\mr97a\MR97a.bas(1303) error 61: Illegal inside functions, found 'sub'
+sub nimgput( x0 as integer = 1, y0 as integer = 1, c0 as string = "" , flag as string = "font" )
+    ^
+C:\AG47\mr97a\MR97a.bas(1322) error 35: Expected 'END SELECT'
+end sub
+    ^

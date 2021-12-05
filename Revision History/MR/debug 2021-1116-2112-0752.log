@@ -1,0 +1,18 @@
+C:\AG47\mr97a\inc\names script.bas(29) error 4: Duplicated definition, spell_k
+	dim as string spell_k = string$( 0, 0 ), spell_k_sync = string$( 0, 0 ), spellplus_k = string$( 0, 0 ), spellplus_k_sync = string$( 0, 0 ), 
+	                      ^
+C:\AG47\mr97a\inc\names script.bas(72) error 181: Invalid assignment/conversion
+			spell_e_sync = sync_names( spell_e, party_table() )
+			                                                  ^
+C:\AG47\mr97a\inc\names script.bas(75) error 181: Invalid assignment/conversion
+			spellplus_e_sync = sync_names( spellplus_e, party_table() )
+			                                                          ^
+C:\AG47\mr97a\inc\names script.bas(77) error 20: Type mismatch, found 'then'
+			if spell_e_sync <> "%%" then
+			                        ^
+C:\AG47\mr97a\inc\names script.bas(78) error 99: No matching overloaded function, VAL()
+				e( member, spell )= val( spellplus_e_sync )
+				                                          ^
+C:\AG47\mr97a\inc\names script.bas(80) error 99: No matching overloaded function, VAL()
+				e( member, spell )= val( spell_e_sync )
+				                                      ^

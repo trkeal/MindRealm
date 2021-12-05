@@ -1,0 +1,3 @@
+C:\ag\mr97b\MR97b.bas(14) error 23: File not found, "inc\names declarations.bas"
+#include once "inc\names declarations.bas"
+              ^

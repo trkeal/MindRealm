@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(1088) error 28: Expected pointer, before ')'
+		pset dest, ( destx , desty ), point ( sourcex, sourcey, sourceimage )
+		                                                                    ^

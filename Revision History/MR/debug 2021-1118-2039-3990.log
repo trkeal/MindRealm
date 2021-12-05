@@ -1,0 +1,9 @@
+C:\AG47\mr97a\MR97a.bas(1234) error 58: Type mismatch, at parameter 1
+			offset2 = mid$(offset + len("[["), subject, "]]" )
+			                                                 ^
+C:\AG47\mr97a\MR97a.bas(1236) error 181: Invalid assignment/conversion
+				subject2 = mid$(subject,offset+len("[["),offset2-offset-len("[[")+1)
+				                                                                   ^
+C:\AG47\mr97a\MR97a.bas(1240) error 3: Expected End-of-Line, found 'mod'
+				mod = subject2
+				^

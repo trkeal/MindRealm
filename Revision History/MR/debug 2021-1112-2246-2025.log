@@ -1,0 +1,6 @@
+C:\AG47\mr97a\inc\names.bas(22) error 59: Illegal specification, at parameter 2 (names_table) of load_names()
+sub load_names( filename as string = "", byref names_table( any ) as names_type )
+                                                            ^
+C:\AG47\mr97a\inc\names.bas(34) error 3: Expected End-of-Line, found ')'
+		buffer = mid$(buffer, len(subject) + len( crlf)) )
+		                                                 ^

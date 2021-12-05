@@ -1,0 +1,9 @@
+C:\ag\mr97b\inc\hud\encounter hud.bas(53) error 3: Expected End-of-Line, found 'then'
+		while len(chunk) > w then
+		                     ^
+C:\ag\mr97b\inc\hud\encounter hud.bas(58) error 20: Type mismatch, found '+'
+		if len( chunk+sep+word ) > w then
+		                 ^
+C:\ag\mr97b\inc\hud\encounter hud.bas(62) error 20: Type mismatch
+			chunk+=sep+word		
+			           ^

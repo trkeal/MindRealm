@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(85) error 3: Expected End-of-Line, found 'ON'
+TIMER ON
+      ^
+C:\AG47\mr97a\MR97a.bas(102) error 73: Array access, index expected, before '='
+c$ = ""
+   ^
+C:\AG47\mr97a\MR97a.bas(103) error 73: Array access, index expected, before '<>'
+WHILE c$ <> CHR$(32)
+         ^
+C:\AG47\mr97a\MR97a.bas(104) error 73: Array access, index expected, before '='
+  c$ = INKEY$
+     ^
+C:\AG47\mr97a\MR97a.bas(105) error 73: Array access, index expected, before '='
+  IF c$ = CHR$(27) THEN END
+        ^
+C:\AG47\mr97a\MR97a.bas(106) error 73: Array access, index expected, before '='
+  IF c$ = "@" THEN
+        ^
+C:\AG47\mr97a\MR97a.bas(111) error 73: Array access, index expected, before '='
+    c$ = " "
+       ^
+C:\AG47\mr97a\MR97a.bas(116) error 10: Expected '=', found 'OFF'
+KEY OFF
+    ^
+C:\AG47\mr97a\MR97a.bas(158) error 73: Array access, index expected, before '='
+41 s$ = CHR$(g(yy, xx))
+      ^
+C:\AG47\mr97a\MR97a.bas(181) error 73: Array access, index expected, before '='
+           s$ = CHR$(g(yy, xx))
+              ^
+C:\AG47\mr97a\MR97a.bas(181) error 133: Too many errors, exiting

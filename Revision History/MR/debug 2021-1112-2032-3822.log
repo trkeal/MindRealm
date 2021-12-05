@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(34) error 4: Duplicated definition, i
+DIM SHARED i(ch, 6): 'character
+                   ^
+C:\AG47\mr97a\MR97a.bas(47) error 11: Expected constant, found ','
+DATA 55,89,E5,8B,5E,0C,8B,07,50,8B,5E,0A,8B,07,50,8B
+             ^
+C:\AG47\mr97a\MR97a.bas(48) error 3: Expected End-of-Line, found 'B'
+DATA 5E,08,8B,0F,8B,5E,06,8B,17,5B,58,1E,07,CD,33,53
+            ^
+C:\AG47\mr97a\MR97a.bas(49) error 3: Expected End-of-Line, found 'B'
+DATA 8B,5E,0C,89,07,58,8B,5E,0A,89,07,8B,5E,08,89,0F
+      ^
+C:\AG47\mr97a\MR97a.bas(50) error 3: Expected End-of-Line, found 'B'
+DATA 8B,5E,06,89,17,5D,CA,08,00
+      ^
+C:\AG47\mr97a\MR97a.bas(89) error 3: Expected End-of-Line, found 'ON'
+TIMER ON
+      ^
+C:\AG47\mr97a\MR97a.bas(106) error 73: Array access, index expected, before '='
+c$ = ""
+   ^
+C:\AG47\mr97a\MR97a.bas(107) error 73: Array access, index expected, before '<>'
+WHILE c$ <> CHR$(32)
+         ^
+C:\AG47\mr97a\MR97a.bas(108) error 73: Array access, index expected, before '='
+  c$ = INKEY$
+     ^
+C:\AG47\mr97a\MR97a.bas(109) error 73: Array access, index expected, before '='
+  IF c$ = CHR$(27) THEN END
+        ^
+C:\AG47\mr97a\MR97a.bas(109) error 133: Too many errors, exiting

@@ -1,0 +1,31 @@
+C:\AG47\mr97a\inc\names script.bas(36) error 181: Invalid assignment/conversion
+		sas( spell ) = sync_names( "spell/906/" + ltrim$( str$( spell ) ) + "/sas", spells_table() )
+		                                                                                           ^
+C:\AG47\mr97a\inc\names script.bas(44) error 181: Invalid assignment/conversion
+		nas( member ) = sync_names( "party/8" + ltrim$( str$( member ) ) + "0/nas", party_table() )
+		                                                                                          ^
+C:\AG47\mr97a\inc\names script.bas(54) error 181: Invalid assignment/conversion
+			spellname = sas( spell )
+			                       ^
+C:\AG47\mr97a\inc\names script.bas(96) error 181: Invalid assignment/conversion
+		sas( shopi ) = sync_names( "spell/" + ltrim$( str$( 900 + shopi ) ) + "/sas", shops() )
+		                                                                                      ^
+C:\AG47\mr97a\inc\names script.bas(98) error 58: Type mismatch, at parameter 1 (subject) of NAME_AS_STRING()
+		sas( shopi ) = name_as_string( sas( shopi ), shops() )
+		                                           ^
+C:\AG47\mr97a\MR97a.bas(18) error 4: Duplicated definition, shops
+redim shared as names_type shops( any )
+                                      ^
+C:\AG47\mr97a\MR97a.bas(19) error 4: Duplicated definition, sas
+redim shared as string sas( any ), nas( any )
+                                 ^
+C:\AG47\mr97a\MR97a.bas(20) error 4: Duplicated definition, s
+redim shared as integer s( any ), k( any ), e( any )
+                                ^
+C:\AG47\mr97a\MR97a.bas(25) error 4: Duplicated definition
+declare sub dumpchar()
+                     ^
+C:\AG47\mr97a\MR97a.bas(27) error 4: Duplicated definition
+declare function imagescale( source as any ptr, destw as integer = 640, desth as integer = 480) as any ptr
+                                                                                                       ^
+C:\AG47\mr97a\MR97a.bas(27) error 133: Too many errors, exiting

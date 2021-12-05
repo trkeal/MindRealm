@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(323) error 72: Array not dimensioned, before '('
+CALL GraphicPut((x0 - 1) * 8, (y0 - 1) * 8, RIGHTa$(STR$(1000 + ASC(c0$)), 3) + "b0808.til")
+                                                    ^
+C:\AG47\mr97a\MR97a.bas(347) error 72: Array not dimensioned, before '('
+r$ = "": c$ = "": c$ = INPUTa$(1)
+                               ^
+C:\AG47\mr97a\MR97a.bas(349) error 1: Argument count mismatch
+312 IF c$ = "~" THEN RUN
+                     ^
+C:\AG47\mr97a\MR97a.bas(355) error 72: Array not dimensioned, before '('
+324 IF c$ = "v" AND k(p0, 2) > 0 AND g2 < g0 THEN r = INT(RND(1) * 3) + 4: IF z(p0, 4) >= r THEN GOSUB 1200: z(p0, 4) = z(p0, 4) - r: r$ = STR$(r): r$ = "[Cast 'Vision']" + "[Mp -" + RIGHTa$(r$, LEN(r$) - 1) + "]"
+                                                                                                                                                                                               ^
+C:\AG47\mr97a\MR97a.bas(356) error 72: Array not dimensioned, before '('
+325 IF c$ = "t" AND k(p0, 3) > 0 THEN r = INT(RND(1) * 6) + 4: IF z(p0, 4) >= r THEN GOSUB 2000: z(p0, 4) = z(p0, 4) - r: r$ = STR$(r): r$ = "[Cast 'Tinker']" + "[Mp -" + RIGHTa$(r$, LEN(r$) - 1) + "]"
+                                                                                                                                                                                   ^
+C:\AG47\mr97a\MR97a.bas(357) error 72: Array not dimensioned, before '('
+326 IF c$ = "p" AND k(p0, 4) > 0 THEN r = INT(RND(1) * 3) + 5: IF z(p0, 4) >= r THEN GOSUB 1900: z(p0, 4) = z(p0, 4) - r: r$ = STR$(r): r$ = "[Cast 'Passage']" + "[Mp -" + RIGHTa$(r$, LEN(r$) - 1) + "]"
+                                                                                                                                                                                    ^
+C:\AG47\mr97a\MR97a.bas(358) error 72: Array not dimensioned, before '('
+327 IF c$ = "h" AND k(p0, 5) > 0 THEN r = INT(RND(1) * 2) + 4: IF z(p0, 4) >= r THEN GOSUB 1800: z(p0, 4) = z(p0, 4) - r: r$ = STR$(r): r$ = "[Cast 'Heal']" + "[Mp -" + RIGHTa$(r$, LEN(r$) - 1) + "]"
+                                                                                                                                                                                 ^
+C:\AG47\mr97a\MR97a.bas(359) error 72: Array not dimensioned, before '('
+328 IF c$ = "f" AND k(p0, 6) > 0 THEN r = INT(RND(1) * 5) + 4: IF z(p0, 4) >= r THEN GOSUB 1200: z(p0, 4) = z(p0, 4) - r: r$ = STR$(r): r$ = "[Cast 'Flare']" + "[Mp -" + RIGHTa$(r$, LEN(r$) - 1) + "]"
+                                                                                                                                                                                  ^
+C:\AG47\mr97a\MR97a.bas(360) error 72: Array not dimensioned, before '('
+340 IF c$ = "b" AND bm > 0 THEN r = 1: IF bm >= r THEN GOSUB 1500: bm = bm - r: r$ = STR$(r): r$ = "[Used Bomb][Bomb -" + RIGHTa$(r$, LEN(r$) - 1) + "]"
+                                                                                                                                  ^
+C:\AG47\mr97a\MR97a.bas(379) error 72: Array not dimensioned, before '('
+403 IF v(qy, qx) = 1 OR c3 = 0 OR c3 = 2 THEN 400 ELSE px = qx: py = qy: z(p0, 4) = z(p0, 4) - r: r$ = STR$(r): r$ = "[Cast 'Warp']" + "[Mp -" + RIGHTa$(r$, LEN(r$) - 1) + "]"
+                                                                                                                                                         ^
+C:\AG47\mr97a\MR97a.bas(379) error 133: Too many errors, exiting

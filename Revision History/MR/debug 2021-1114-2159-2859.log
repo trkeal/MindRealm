@@ -1,0 +1,2 @@
+C:\AG47\mr97a\MR97a.bas(1055) warning 2(2): Passing pointer to scalar, at parameter 1 (sourcepage) of SCREEN_SCALER()
+C:\AG47\mr97a\MR97a.bas(1055) warning 2(2): Passing pointer to scalar, at parameter 2 (destpage) of SCREEN_SCALER()

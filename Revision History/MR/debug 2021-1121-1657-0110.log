@@ -1,0 +1,6 @@
+C:\AG47\mr97a\inc\random.bas(7) error 1: Argument count mismatch
+randomizer = val(sync_names("randomizer", 
+                                        ^
+C:\AG47\mr97a\inc\random.bas(8) error 10: Expected '=', found '('
+about_table() ) ))
+            ^

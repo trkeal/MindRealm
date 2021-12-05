@@ -1,0 +1,12 @@
+C:\AG47\mr97a\MR97a.bas(575) error 10: Expected '=', found 'party_table'
+load_party_stats party_table(), spells_table()
+                 ^
+C:\AG47\mr97a\MR97a.bas(577) error 4: Duplicated definition
+sub load_party_stats( party_table(any) as names_type, spells_table(any) as names_type )
+                                                                                      ^
+C:\AG47\mr97a\MR97a.bas(706) error 10: Expected '=', found 'spells_table'
+load_spells spells_table()
+            ^
+C:\AG47\mr97a\MR97a.bas(708) error 4: Duplicated definition
+sub load_spells( spells_table( any ) as names_type )
+                                                   ^

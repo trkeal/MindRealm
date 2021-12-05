@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(20) error 4: Duplicated definition, copyright
+dim shared as string copyright
+                     ^

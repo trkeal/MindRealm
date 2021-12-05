@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(900) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(g01(0)): BLOAD "tiles\" + GGGR$, VARPTR(g01(0))
+      ^

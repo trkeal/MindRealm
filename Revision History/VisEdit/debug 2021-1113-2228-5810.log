@@ -1,0 +1,31 @@
+C:\AG47\mr97a\VisEdit96a.bas(11) error 10: Expected '=', found 'OFF'
+10 KEY OFF: SCREEN SCRN, 0, 1, 0: COLOR 15, 0: CLS : RANDOMIZE TIMER
+       ^
+C:\AG47\mr97a\VisEdit96a.bas(30) error 72: Array not dimensioned, before '('
+76 pb = PEN(3): px = PEN(4): py = PEN(5): sb = STRIG(0): sx = STICK(0): sy = STICK(1)
+            ^
+C:\AG47\mr97a\VisEdit96a.bas(30) error 72: Array not dimensioned, before '('
+76 pb = PEN(3): px = PEN(4): py = PEN(5): sb = STRIG(0): sx = STICK(0): sy = STICK(1)
+                         ^
+C:\AG47\mr97a\VisEdit96a.bas(30) error 72: Array not dimensioned, before '('
+76 pb = PEN(3): px = PEN(4): py = PEN(5): sb = STRIG(0): sx = STICK(0): sy = STICK(1)
+                                      ^
+C:\AG47\mr97a\VisEdit96a.bas(30) error 72: Array not dimensioned, before '('
+76 pb = PEN(3): px = PEN(4): py = PEN(5): sb = STRIG(0): sx = STICK(0): sy = STICK(1)
+                                                     ^
+C:\AG47\mr97a\VisEdit96a.bas(30) error 72: Array not dimensioned, before '('
+76 pb = PEN(3): px = PEN(4): py = PEN(5): sb = STRIG(0): sx = STICK(0): sy = STICK(1)
+                                                                    ^
+C:\AG47\mr97a\VisEdit96a.bas(30) error 72: Array not dimensioned, before '('
+76 pb = PEN(3): px = PEN(4): py = PEN(5): sb = STRIG(0): sx = STICK(0): sy = STICK(1)
+                                                                                   ^
+C:\AG47\mr97a\VisEdit96a.bas(32) error 72: Array not dimensioned, before '('
+78 IF STRIG(0) = -1 THEN c$ = CHR$(13)
+            ^
+C:\AG47\mr97a\VisEdit96a.bas(49) error 3: Expected End-of-Line, found ','
+156 IF c$ = CHR$(27) THEN SCREEN 0, 0, 0, 0: WIDTH 80: COLOR 15, 1, 1: CLS : END
+                                                                  ^
+C:\AG47\mr97a\VisEdit96a.bas(94) error 3: Expected End-of-Line, found ','
+410 SCREEN 0, 0, 0, 0: WIDTH 80: COLOR 15, 1, 1: CLS
+                                            ^
+C:\AG47\mr97a\VisEdit96a.bas(94) error 133: Too many errors, exiting

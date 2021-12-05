@@ -1,0 +1,31 @@
+C:\ag\mr97b\gamedata\load gamedata.bas(28) error 10: Expected '='
+		gtext 40 + roseaxis*2, 20 + rosecard * 7, 15, 0, ltrim$(str$(rose( rosecard, roseaxis )))
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(36) error 10: Expected '='
+		gtext 40, 20 + rosecard * 7, 15, 0, name_as_string( sync_names( "rose/key/" + ltrim$( str$( rosecard ) ), gamedata_table() ) )
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(75) error 10: Expected '=', found 'member'
+		gtext member, 3, 15, 0, membername( member )
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(83) error 10: Expected '=', found 'stat'
+		gtext stat, 15, 15, 0, statname( stat )
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(92) error 10: Expected '=', found 'spell'
+		gtext spell, 25, 15, 0, spellname( spell )
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(93) error 10: Expected '=', found 'spell'
+		gtext spell, 35, 15, 0, ltrim$( str$( difficulty( spell ) ) )
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(104) error 10: Expected '=', found 'spell'
+		gtext spell+10, member*7, 15, 0, truncate(str$(knowledge( member, spell )),3)
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(105) error 10: Expected '=', found 'spell'
+		gtext spell+10, member*7, 15, 0, truncate(str$(experience( member, spell )),3)
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(117) error 10: Expected '=', found 'stat'
+		gtext stat+20, member*7, 15, 0, truncate(str$(initialstats( member, stat )),3)
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(118) error 10: Expected '=', found 'stat'
+		gtext stat+20, member*7, 15, 0, truncate(str$(currentstats( member, stat )),3)
+		      ^
+C:\ag\mr97b\gamedata\load gamedata.bas(118) error 133: Too many errors, exiting

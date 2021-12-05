@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(45) error 72: Array not dimensioned, before '('
+	mouse$ = stringa$( lof( filemode ) , 0 )
+	                   ^
+C:\AG47\mr97a\MR97a.bas(88) error 72: Array not dimensioned, before '('
+  PRINT ("ú " + STRa$(TIMER))
+                      ^
+C:\AG47\mr97a\MR97a.bas(93) error 72: Array not dimensioned, before '('
+  PRINT ("ú randomized " + STRa$(rrand))
+                                 ^
+C:\AG47\mr97a\MR97a.bas(105) error 72: Array not dimensioned, before '('
+WHILE c$ <> CHRa$(32)
+                  ^
+C:\AG47\mr97a\MR97a.bas(107) error 72: Array not dimensioned, before '('
+  IF c$ = CHRa$(27) THEN END
+                ^
+C:\AG47\mr97a\MR97a.bas(160) error 72: Array not dimensioned, before '('
+41 s$ = CHRa$(g(yy, xx))
+              ^
+C:\AG47\mr97a\MR97a.bas(183) error 72: Array not dimensioned, before '('
+           s$ = CHRa$(g(yy, xx))
+                      ^
+C:\AG47\mr97a\MR97a.bas(212) error 72: Array not dimensioned, before '('
+54 s1$ = CHRa$(g(yy - 2, xx)): s2$ = CHRa$(g(yy - 1, xx))
+               ^
+C:\AG47\mr97a\MR97a.bas(212) error 72: Array not dimensioned, before '('
+54 s1$ = CHRa$(g(yy - 2, xx)): s2$ = CHRa$(g(yy - 1, xx))
+                                           ^
+C:\AG47\mr97a\MR97a.bas(216) error 72: Array not dimensioned, before '('
+57 s1$ = CHRa$(g(yy, xx + 2)): s2$ = CHRa$(g(yy, xx + 1))
+               ^
+C:\AG47\mr97a\MR97a.bas(216) error 133: Too many errors, exiting

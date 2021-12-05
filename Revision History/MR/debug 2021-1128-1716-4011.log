@@ -1,0 +1,3 @@
+C:\ag\mr97b\inc\encounter hud.bas(29) error 14: Expected identifier, found 'text_table'
+		dim as text_table as names_type
+		       ^

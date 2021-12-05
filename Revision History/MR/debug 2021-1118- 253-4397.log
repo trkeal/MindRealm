@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(1266) error 24: Invalid data types
+		case "@"+string$(4,chr$(0)) to "@"+string$(4,chr$(255))
+		                                                      ^

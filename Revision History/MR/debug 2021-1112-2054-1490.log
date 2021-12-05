@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(7) error 17: Syntax error, ca
+REDIM AS INTEGER ca$(0 TO 12), ta$( 0 TO 12)
+                    ^
+C:\AG47\mr97a\MR97a.bas(314) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(ta$(c3))) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                              ^
+C:\AG47\mr97a\MR97a.bas(314) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(ta$(c3))) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                     ^
+C:\AG47\mr97a\MR97a.bas(314) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(ta$(c3))) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                                                     ^
+C:\AG47\mr97a\MR97a.bas(314) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(ta$(c3))) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                                                                                                     ^
+C:\AG47\mr97a\MR97a.bas(315) error 72: Array not dimensioned, before '('
+201 IF c3 = 1 THEN c0 = INT(RND(1) * (LEN(ta$(c3)) - 1)) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                              ^
+C:\AG47\mr97a\MR97a.bas(315) error 72: Array not dimensioned, before '('
+201 IF c3 = 1 THEN c0 = INT(RND(1) * (LEN(ta$(c3)) - 1)) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                          ^
+C:\AG47\mr97a\MR97a.bas(315) error 72: Array not dimensioned, before '('
+201 IF c3 = 1 THEN c0 = INT(RND(1) * (LEN(ta$(c3)) - 1)) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                                                          ^
+C:\AG47\mr97a\MR97a.bas(315) error 72: Array not dimensioned, before '('
+201 IF c3 = 1 THEN c0 = INT(RND(1) * (LEN(ta$(c3)) - 1)) + 1: c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                                                                                                          ^
+C:\AG47\mr97a\MR97a.bas(322) error 72: Array not dimensioned, before '('
+214 c0$ = MIDa$(ta$(c3), c0, 1): c1 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MIDa$(caa$(c3), (c0 - 1) * 6 + 4, 2))
+                ^
+C:\AG47\mr97a\MR97a.bas(322) error 133: Too many errors, exiting

@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(1380) error 58: Type mismatch, at parameter 3 (fg) of GTEXT()
+	call gtext( ( 3 - 1 ) * 8, (26 + ip0 - 1 ) * 8, "{{" + nimg( ip0 ) + "}}" + nimg( ip0 ) )
+	                                                                                        ^
+C:\AG47\mr97a\MR97a.bas(1383) error 58: Type mismatch, at parameter 3 (fg) of GTEXT()
+		call gtext( ( 7 + is0 * 5 - 1 ) * 8, ( 26 + ip0 - 1 ) * 8, left$( statname( is0 ), 2 ) + right$( str$( 1000 + z( ip0, is0 ) ), 3 ) )
+		                                                                                                                                   ^

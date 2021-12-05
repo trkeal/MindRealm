@@ -1,0 +1,10 @@
+C:\AG47\mr97a\MR97a.bas(1072) error 4: Duplicated definition
+declare sub imagescale( source as any ptr, destw as integer = 640, desth as integer = 480, dest as any ptr )
+                                                                                                           ^
+C:\AG47\mr97a\MR97a.bas(1075) warning 1(2): Passing scalar as pointer, at parameter 1 of IMAGEINFO()
+C:\AG47\mr97a\MR97a.bas(1088) error 28: Expected pointer, before ')'
+		pset dest, ( destx , desty ), point ( sourcex, sourcey, sourceimage )
+		                                                                    ^
+C:\AG47\mr97a\MR97a.bas(1093) error 112: END SUB or FUNCTION without SUB or FUNCTION, found 'end'
+end sub
+    ^

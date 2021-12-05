@@ -1,0 +1,13 @@
+C:\AG47\mr97a\inc\outro.bas(3) error 72: Array not dimensioned, before '('
+	IF c$ = sync_name( "quit", names_table() ) THEN
+	                   ^
+C:\AG47\mr97a\inc\outro.bas(30) warning 2(2): Passing pointer to scalar, at parameter 1 of TEXT()
+C:\AG47\mr97a\inc\outro.bas(30) error 58: Type mismatch, at parameter 3 of TEXT()
+		text outroimage( 0 ), 1, 1, outro, 0,13, 5, -2
+		                          ^
+C:\AG47\mr97a\inc\outro.bas(41) error 10: Expected '=', found 'outroimage'
+		region_scaler outroimage()
+		              ^
+C:\AG47\mr97a\VisEdit96a.bas(32) error 1: Argument count mismatch
+if c$ = chr$(27) then quitoutro
+                      ^

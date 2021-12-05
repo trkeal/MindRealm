@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(430) error 9: Expected expression
+CALL StringPut( ( 1 - 1 ) * 8, ( 1 - 1 ) * 8, "Ú"+string$(38,"Ä")+
+                                                                 ^
+C:\AG47\mr97a\MR97a.bas(431) error 119: Cannot modify a constant, before ','
+"¿", "font" )
+   ^

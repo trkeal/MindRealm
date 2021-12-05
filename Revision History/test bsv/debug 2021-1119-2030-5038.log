@@ -1,0 +1,3 @@
+C:\AG47\mr97a\Test BSV.bas(7) error 4: Duplicated definition, filename
+dim as string filename = command
+                       ^

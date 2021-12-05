@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(33) error 24: Invalid data types
+dim shared gametitle = ucword( "MIND REALM" )
+                                            ^
+C:\AG47\mr97a\MR97a.bas(194) error 20: Type mismatch, found '+'
+6 GOSUB 250: CALL StringPut((13 - 1) * 8, (18 - 1) * 8, "{" + gametitle + " }"): COLOR 15, 0: SCREENCOPY 0, 2
+                                                                        ^

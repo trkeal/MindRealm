@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(389) error 3: Expected End-of-Line, found ';'
+			locate 25, r;
+			            ^

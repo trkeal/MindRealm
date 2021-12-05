@@ -1,0 +1,24 @@
+C:\AG47\mr97a\MR97a.bas(611) error 72: Array not dimensioned, before '('
+			if ( sync_table( spellplus_k, party_table() ) <> "%%" ) then
+			                 ^
+C:\AG47\mr97a\MR97a.bas(612) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_table( spellplus_k, party_table() ))
+				                                  ^
+C:\AG47\mr97a\MR97a.bas(613) error 72: Array not dimensioned, before '('
+			elseif ( sync_table( spell_k, party_table() ) <> "%%" ) then
+			                     ^
+C:\AG47\mr97a\MR97a.bas(614) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_table( spell_k, party_table() ))
+				                                  ^
+C:\AG47\mr97a\MR97a.bas(618) error 72: Array not dimensioned, before '('
+			if ( sync_table( spellplus_e, party_table() ) <> "%%" ) then
+			                 ^
+C:\AG47\mr97a\MR97a.bas(619) error 72: Array not dimensioned, before '('
+				e(member,spell) = val(sync_table( spellplus_e, party_table() ))
+				                                  ^
+C:\AG47\mr97a\MR97a.bas(621) error 72: Array not dimensioned, before '('
+			elseif ( sync_table( spell_e, party_table() ) <> "%%" ) then
+			                     ^
+C:\AG47\mr97a\MR97a.bas(622) error 72: Array not dimensioned, before '('
+				e(member,spell) = val(sync_table( spell_e, party_table() ))
+				                                  ^

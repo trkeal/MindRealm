@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(1093) error 20: Type mismatch, found '+'
+		elseif mid$(subject,offset,2) = qopen and mid$(subject,offset+qopen+2,len(qopen)) = qclose then
+		                                                                   ^

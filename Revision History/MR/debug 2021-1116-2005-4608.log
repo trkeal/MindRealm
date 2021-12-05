@@ -1,0 +1,31 @@
+C:\AG47\mr97a\inc\names script.bas(30) error 72: Array not dimensioned, before '('
+		sa$( spell ) = sync_names( "spell/906/" + ltrim$( str$( spell ) ) + "/sa$", spells_table() )
+		     ^
+C:\AG47\mr97a\inc\names script.bas(32) error 72: Array not dimensioned, before '('
+		s(spell) = val( sync_names( "spell/906/" + ltrim$( str$( spell ) ) + "/s", spells_table() ) )
+		  ^
+C:\AG47\mr97a\inc\names script.bas(37) error 72: Array not dimensioned, before '('
+		na$( member ) = sync_names( "party/8" + ltrim$( str$( member ) ) + "0/na$", party_table() )
+		     ^
+C:\AG47\mr97a\inc\names script.bas(39) error 72: Array not dimensioned, before '('
+			i( member, stat ) = val( sync_names( "party/8" + ltrim$( str$( member ) ) + "1/Stat/" + ltrim$( str$( stat ) ), party_table() ) )
+			   ^
+C:\AG47\mr97a\inc\names script.bas(44) error 72: Array not dimensioned, before '('
+			spellname = sa$( spell )
+			                 ^
+C:\AG47\mr97a\inc\names script.bas(55) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_names( spellplus_k, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(57) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_names( spell_k, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(62) error 72: Array not dimensioned, before '('
+				e(member,spell) = val(sync_names( spellplus_e, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(65) error 72: Array not dimensioned, before '('
+				e(member,spell) = val(sync_names( spell_e, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(82) error 72: Array not dimensioned, before '('
+		sa$( shopi ) = sync_names("spell/" + ltrim$( str$( 900 + shopi ) ) + "/sa$", shops() )
+		     ^
+C:\AG47\mr97a\inc\names script.bas(82) error 133: Too many errors, exiting

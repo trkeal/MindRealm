@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(877) error 58: Type mismatch, at parameter 3 of GTEXT()
+	gtext 25, 3, STRING$(36 - gtext_true_len( r$ ), "Ä" );
+	                                                     ^

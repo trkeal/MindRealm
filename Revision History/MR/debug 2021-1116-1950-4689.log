@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(602) error 181: Invalid assignment/conversion
+			spelltemp = "party/8" + ltrim$( str$( member ) )  + ltrim$( str$( spell + 1 ) ) + "/" + spellname
+			                                                                                        ^
+C:\AG47\mr97a\MR97a.bas(604) error 20: Type mismatch
+			spell_k = spelltemp + "/k"
+			                      ^
+C:\AG47\mr97a\MR97a.bas(605) error 20: Type mismatch
+			spell_e = spelltemp + "/e"
+			                      ^
+C:\AG47\mr97a\MR97a.bas(607) error 20: Type mismatch
+			spellplus_k = spelltemp + "+/k"
+			                          ^
+C:\AG47\mr97a\MR97a.bas(608) error 20: Type mismatch
+			spellplus_e = spelltemp + "+/e"
+			                          ^
+C:\AG47\mr97a\MR97a.bas(610) error 72: Array not dimensioned, before '('
+			if ( sync_table( spellplus_k, party_table() ) <> "%%" ) then
+			                 ^
+C:\AG47\mr97a\MR97a.bas(611) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_table( spellplus_k, party_table() ))
+				                                  ^
+C:\AG47\mr97a\MR97a.bas(612) error 72: Array not dimensioned, before '('
+			elseif ( sync_table( spell_k, party_table() ) <> "%%" ) then
+			                     ^
+C:\AG47\mr97a\MR97a.bas(613) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_table( spell_k, party_table() ))
+				                                  ^
+C:\AG47\mr97a\MR97a.bas(617) error 72: Array not dimensioned, before '('
+			if ( sync_table( spellplus_e, party_table() ) <> "%%" ) then
+			                 ^
+C:\AG47\mr97a\MR97a.bas(617) error 133: Too many errors, exiting

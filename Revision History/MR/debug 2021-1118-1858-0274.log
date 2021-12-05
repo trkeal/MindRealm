@@ -1,0 +1,21 @@
+C:\AG47\mr97a\MR97a.bas(28) error 4: Duplicated definition
+DECLARE SUB SBInit ()
+                    ^
+C:\AG47\mr97a\MR97a.bas(29) error 4: Duplicated definition
+DECLARE SUB WriteReg (Reg%, Value%)
+                                  ^
+C:\AG47\mr97a\MR97a.bas(30) error 4: Duplicated definition
+DECLARE SUB SBPlay (note%)
+                         ^
+C:\AG47\mr97a\MR97a.bas(1208) error 1: Argument count mismatch
+sub nimgput( x0 as integer = 1, y0 as integer = 1, c0 as string = "", mode as string = "font" )
+                                                                                              ^
+C:\AG47\mr97a\MR97a.bas(1213) error 24: Invalid data types
+	case "party"
+	     ^
+C:\AG47\mr97a\MR97a.bas(1215) error 24: Invalid data types
+	case "map"			
+	     ^
+C:\AG47\mr97a\MR97a.bas(1217) error 24: Invalid data types
+	case "font"
+	     ^

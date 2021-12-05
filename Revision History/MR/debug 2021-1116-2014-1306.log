@@ -1,0 +1,31 @@
+C:\AG47\mr97a\inc\names script.bas(35) error 181: Invalid assignment/conversion
+		sas( spell ) = sync_names( "spell/906/" + ltrim$( str$( spell ) ) + "/sas", spells_table() )
+		                                                                                           ^
+C:\AG47\mr97a\inc\names script.bas(42) error 181: Invalid assignment/conversion
+		nas( member ) = sync_names( "party/8" + ltrim$( str$( member ) ) + "0/nas", party_table() )
+		                                                                                          ^
+C:\AG47\mr97a\inc\names script.bas(45) error 36: Wrong number of dimensions, I
+			i( member, stat ) = val( sync_names( "party/8" + ltrim$( str$( member ) ) + "1/Stat/" + ltrim$( str$( stat ) ), party_table() ) )
+			                ^
+C:\AG47\mr97a\inc\names script.bas(48) error 14: Expected identifier, found 'for'
+		for for spell = lbound( sas, 1 ) to ubound( sas, 1 ) step 1
+		        ^
+C:\AG47\mr97a\inc\names script.bas(48) error 3: Expected End-of-Line, found 'for'
+		for for spell = lbound( sas, 1 ) to ubound( sas, 1 ) step 1
+		        ^
+C:\AG47\mr97a\inc\names script.bas(51) error 181: Invalid assignment/conversion
+			spellname = sas( spell )
+			                       ^
+C:\AG47\mr97a\inc\names script.bas(62) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_names( spellplus_k, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(64) error 72: Array not dimensioned, before '('
+				k(member,spell) = val(sync_names( spell_k, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(69) error 72: Array not dimensioned, before '('
+				e(member,spell) = val(sync_names( spellplus_e, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(72) error 72: Array not dimensioned, before '('
+				e(member,spell) = val(sync_names( spell_e, party_table() ))
+				  ^
+C:\AG47\mr97a\inc\names script.bas(72) error 133: Too many errors, exiting

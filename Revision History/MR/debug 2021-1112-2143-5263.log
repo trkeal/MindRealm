@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(379) error 10: Expected '='
+302 GOSUB 1600: SCREENSCREENCOPY 0, 1: GOSUB 220
+                                 ^

@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(886) error 10: Expected '='
+	sa$(1)
+	     ^
+C:\AG47\mr97a\MR97a.bas(887) error 10: Expected '='
+	sa$(1)
+	     ^
+C:\AG47\mr97a\MR97a.bas(893) error 10: Expected '='
+	sa$(2)
+	     ^
+C:\AG47\mr97a\MR97a.bas(894) error 10: Expected '='
+	sa$(2)
+	     ^
+C:\AG47\mr97a\MR97a.bas(900) error 10: Expected '='
+	sa$(3)
+	     ^
+C:\AG47\mr97a\MR97a.bas(901) error 10: Expected '='
+	sa$(3)
+	     ^
+C:\AG47\mr97a\MR97a.bas(907) error 10: Expected '='
+	sa$(4)
+	     ^
+C:\AG47\mr97a\MR97a.bas(908) error 10: Expected '='
+	sa$(4)
+	     ^
+C:\AG47\mr97a\MR97a.bas(914) error 10: Expected '='
+	sa$(5)
+	     ^
+C:\AG47\mr97a\MR97a.bas(915) error 10: Expected '='
+	sa$(5)
+	     ^
+C:\AG47\mr97a\MR97a.bas(915) error 133: Too many errors, exiting

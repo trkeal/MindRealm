@@ -1,0 +1,5 @@
+C:\AG47\mr97a\inc\sprites 2x.bas(91) error 6: Expected '(', found 'image2x'
+	imagecreate image2x(ww,hh,0,8)
+	            ^
+C:\AG47\mr97a\inc\sprites 2x.bas(91) warning 2(2): Passing pointer to scalar, at parameter 1
+C:\AG47\mr97a\inc\sprites 2x.bas(91) warning 2(2): Passing pointer to scalar, at parameter 2

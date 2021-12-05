@@ -1,0 +1,18 @@
+C:\AG47\mr97a\MR97a.bas(1068) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H60)
+     ^
+C:\AG47\mr97a\MR97a.bas(1069) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H80)
+     ^
+C:\AG47\mr97a\MR97a.bas(1071) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H2, &HFF)
+     ^
+C:\AG47\mr97a\MR97a.bas(1072) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H21)
+     ^
+C:\AG47\mr97a\MR97a.bas(1077) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H60)
+     ^
+C:\AG47\mr97a\MR97a.bas(1078) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H80)
+     ^

@@ -1,0 +1,31 @@
+C:\ag\mr97b\inc\stat hud.bas(50) error 72: Array not dimensioned, before '('
+			co = nas( ip0 )		
+			          ^
+C:\ag\mr97b\inc\spell hud.bas(10) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+	dim as integer spellct = val( sync_names( "spell/count", spells_table() ) )
+	                                                                        ^
+C:\ag\mr97b\inc\spell hud.bas(16) error 72: Array not dimensioned, before '('
+		co = nimg(p0)
+		          ^
+C:\ag\mr97b\inc\spell hud.bas(21) error 72: Array not dimensioned, before '('
+		co = nas(p0)
+		         ^
+C:\ag\mr97b\inc\spell hud.bas(48) error 72: Array not dimensioned, before '('
+		co = truncate( left$( str$( sas( is0 ) ), 7 ), 3 )
+		                                 ^
+C:\ag\mr97b\inc\spell hud.bas(53) error 72: Array not dimensioned, before '('
+		co = truncate( left$( str$( k( p0, is0 ) ), 2 ), 3 )
+		                               ^
+C:\ag\mr97b\inc\spell hud.bas(58) error 72: Array not dimensioned, before '('
+		co = truncate( left$( str$( e( p0, is0 ) ), 2 ), 3 )		
+		                               ^
+C:\ag\mr97b\MR97b.bas(475) error 72: Array not dimensioned, before '('
+395 FOR r = 1 TO 6: IF currentstat(p0, r) > initialstat(p0, r) THEN currentstat(p0, r) = initialstat(p0, r)
+                                                        ^
+C:\ag\mr97b\MR97b.bas(475) error 72: Array not dimensioned, before '('
+395 FOR r = 1 TO 6: IF currentstat(p0, r) > initialstat(p0, r) THEN currentstat(p0, r) = initialstat(p0, r)
+                                                                                                     ^
+C:\ag\mr97b\MR97b.bas(514) error 72: Array not dimensioned, before '('
+451 IF r >= 1 AND r <= 3 THEN r = INT(RND(1) * 4): currentstat(p0, 2) = currentstat(p0, 2) + r: currentstat(p0, 3) = currentstat(p0, 3) + 3 - r: initialstat(p0, 2) = initialstat(p0, 2) + r: initialstat(p0, 3) = initialstat(p0, 3) + 3 - r: r$ = STR$(r): r$ = "[Ap +" + RIGHT$(r$, LEN(r$) - 1) + "]": r1$ = STR$(3 - r): r$ = r$ + "[Dp +" + RIGHT$(r1$, LEN(r1$) - 1) + "]"
+                                                                                                                                                             ^
+C:\ag\mr97b\MR97b.bas(514) error 133: Too many errors, exiting

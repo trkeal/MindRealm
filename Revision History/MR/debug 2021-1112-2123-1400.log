@@ -1,0 +1,32 @@
+C:\AG47\mr97a\MR97a.bas(19) error 4: Duplicated definition
+DECLARE SUB GraphicPut (XXXX, YYYY, GGGG$)
+                                         ^
+C:\AG47\mr97a\MR97a.bas(40) error 4: Duplicated definition, filemode
+DIM AS INTEGER filemode = FREEFILE
+                        ^
+C:\AG47\mr97a\MR97a.bas(659) error 72: Array not dimensioned, before '('
+1620 IF r$ <> "" THEN LOCATE 25, 3: COLOR 9, 0: PRINT r$; : COLOR 3: PRINT STRINgaa$(36 - LEN(r$), "Ä"); : COLOR 15, 0
+                                                                                     ^
+C:\AG47\mr97a\MR97a.bas(753) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(g01(0)): BLOAD "tiles\" + GGGG$, VARPTR(g01(0))
+      ^
+C:\AG47\mr97a\MR97a.bas(760) error 4: Duplicated definition
+SUB MouseDriver (AX%, bx%, CX%, DX%)
+                                   ^
+C:\AG47\mr97a\MR97a.bas(761) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(mouse$)
+      ^
+C:\AG47\mr97a\MR97a.bas(762) warning 5(1): Implicit conversion
+C:\AG47\mr97a\MR97a.bas(763) error 14: Expected identifier, found 'Absolute'
+  CALL Absolute(AX%, bx%, CX%, DX%, mouse%)
+       ^
+C:\AG47\mr97a\MR97a.bas(766) error 4: Duplicated definition
+SUB MouseHide
+    ^
+C:\AG47\mr97a\MR97a.bas(771) error 4: Duplicated definition
+FUNCTION MouseInit%
+         ^
+C:\AG47\mr97a\MR97a.bas(774) error 317: Function result assignment outside of the function, found '='
+  MouseInit% = AX%
+             ^
+C:\AG47\mr97a\MR97a.bas(774) error 133: Too many errors, exiting

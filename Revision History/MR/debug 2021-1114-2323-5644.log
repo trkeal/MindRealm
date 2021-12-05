@@ -1,0 +1,11 @@
+C:\AG47\mr97a\MR97a.bas(719) error 72: Array not dimensioned, before '('
+gtext 1, 40 - gtext_true_len(s$), 9, 0, s$
+                             ^
+C:\AG47\mr97a\MR97a.bas(732) error 72: Array not dimensioned, before '('
+gtext 25, 40 - gtext_true_len(s$), 9, 0, s$
+                              ^
+C:\AG47\mr97a\MR97a.bas(843) error 4: Duplicated definition
+function gtext_true_len(subject as string) as integer
+                                              ^
+C:\AG47\mr97a\MR97a.bas(855) warning 13(1): Function result was not explicitly set
+C:\AG47\mr97a\MR97a.bas() error 48: Undefined label, O

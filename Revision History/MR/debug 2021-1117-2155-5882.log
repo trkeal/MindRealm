@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(43) error 3: Expected End-of-Line, found 'string'
+dim as string sptemp string$( 0, 0 )
+                     ^
+C:\AG47\mr97a\MR97a.bas(399) error 3: Expected End-of-Line, found 'sprite_put'
+			sptemp = "tiles\"+RIGHT$(STR$(1000 + ASC(c0$)), 3) + "b0808.til"			sprite_put 0, (x0 - 1) * 8, (y0 - 1) * 8, sptemp, "pset"
+			                                                                			^

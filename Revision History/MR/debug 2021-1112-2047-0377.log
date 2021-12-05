@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(313) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(t$(c3))) + 1: c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                             ^
+C:\AG47\mr97a\MR97a.bas(313) error 72: Array not dimensioned, before '('
+200 IF c3 <> 1 THEN c0 = INT(RND(1) * LEN(t$(c3))) + 1: c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                      ^
+C:\AG47\mr97a\MR97a.bas(314) error 72: Array not dimensioned, before '('
+201 IF c3 = 1 THEN c0 = INT(RND(1) * (LEN(t$(c3)) - 1)) + 1: c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                             ^
+C:\AG47\mr97a\MR97a.bas(314) error 72: Array not dimensioned, before '('
+201 IF c3 = 1 THEN c0 = INT(RND(1) * (LEN(t$(c3)) - 1)) + 1: c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2)): g(y0, x0) = ASC(c0$)
+                                                                           ^
+C:\AG47\mr97a\MR97a.bas(321) error 72: Array not dimensioned, before '('
+214 c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2))
+                  ^
+C:\AG47\mr97a\MR97a.bas(349) error 1: Argument count mismatch
+312 IF c$ = "~" THEN RUN
+                     ^
+C:\AG47\mr97a\MR97a.bas(386) error 72: Array not dimensioned, before '('
+414 c0$ = MID$(t$(c3), c0, 1): c1 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 2, 2)): c2 = VAL(MID$(ca$(c3), (c0 - 1) * 6 + 4, 2))
+                  ^
+C:\AG47\mr97a\MR97a.bas(421) error 73: Array access, index expected, before '='
+501 IF c$ = "8" THEN my = -1: mx = 0: ly = 2: ry = py + 1: lx = px - 1: rx = px + 1
+                                         ^
+C:\AG47\mr97a\MR97a.bas(421) error 73: Array access, index expected, before '='
+501 IF c$ = "8" THEN my = -1: mx = 0: ly = 2: ry = py + 1: lx = px - 1: rx = px + 1
+                                                              ^
+C:\AG47\mr97a\MR97a.bas(422) error 73: Array access, index expected, before '='
+502 IF c$ = "6" THEN my = 0: mx = 1: ly = py - 1: ry = py + 1: lx = px - 1: rx = 39
+                                        ^
+C:\AG47\mr97a\MR97a.bas(422) error 133: Too many errors, exiting

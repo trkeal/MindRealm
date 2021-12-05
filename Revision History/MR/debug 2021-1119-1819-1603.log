@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(21) error 3: Expected End-of-Line, found 'ch'
+dim sharead as integer ch = 0, x0 = 0, y0 = 0
+                       ^
+C:\AG47\mr97a\MR97a.bas(69) error 58: Type mismatch, at parameter 1 (ch) of LOAD_PARTY_STATS()
+load_party_stats ch, party_table(), spells_table()
+                   ^
+C:\AG47\mr97a\MR97a.bas(388) error 58: Type mismatch, at parameter 1 of NIMGPUT()
+call nimgput( x0, y0, c0$ )
+                ^
+C:\AG47\mr97a\MR97a.bas(418) error 58: Type mismatch, at parameter 1 of NIMGPUT()
+call nimgput( x0, y0, c0$ )
+                ^
+C:\AG47\mr97a\MR97a.bas(610) error 58: Type mismatch, at parameter 1 (ch) of LOAD_PARTY_STATS()
+load_party_stats ch, party_table(), spells_table()
+                   ^
+C:\AG47\mr97a\MR97a.bas(1111) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H60)
+     ^
+C:\AG47\mr97a\MR97a.bas(1112) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H80)
+     ^
+C:\AG47\mr97a\MR97a.bas(1114) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H2, &HFF)
+     ^
+C:\AG47\mr97a\MR97a.bas(1115) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H21)
+     ^
+C:\AG47\mr97a\MR97a.bas(1120) error 14: Expected identifier, found 'WriteReg'
+CALL WriteReg(&H4, &H60)
+     ^
+C:\AG47\mr97a\MR97a.bas(1120) error 133: Too many errors, exiting

@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(562) error 96: Illegal inside a compound statement or scoped block, found 'shared'
+redim shared as names_type rose_table( any )
+      ^
+C:\AG47\mr97a\MR97a.bas(565) error 96: Illegal inside a compound statement or scoped block, found 'shared'
+redim shared rose( 0 to 4, 1 to 2 ) as integer
+      ^
+C:\AG47\mr97a\MR97a.bas(810) error 96: Illegal inside a compound statement or scoped block, found 'function'
+function pickup( subject as string = "" ) as string
+         ^
+C:\AG47\mr97a\MR97a.bas(833) error 96: Illegal inside a compound statement or scoped block, found 'sub'
+sub gtext( row as integer = 1, col as integer = 1, fg as integer = 9, bg as integer = 0, subject as string = "" )
+    ^
+C:\AG47\mr97a\MR97a.bas(854) error 96: Illegal inside a compound statement or scoped block, found 'function'
+function gtext_true_len(subject as string) as integer
+         ^
+C:\AG47\mr97a\MR97a.bas(868) error 96: Illegal inside a compound statement or scoped block, found 'FUNCTION'
+FUNCTION DetectCard%
+         ^
+C:\AG47\mr97a\MR97a.bas(894) error 96: Illegal inside a compound statement or scoped block, found 'DEFINT'
+DEFINT A-Z
+^
+C:\AG47\mr97a\MR97a.bas(895) error 96: Illegal inside a compound statement or scoped block, found 'SUB'
+SUB SBInit
+    ^
+C:\AG47\mr97a\MR97a.bas(910) error 96: Illegal inside a compound statement or scoped block, found 'SUB'
+SUB SBPlay (freq%)
+    ^
+C:\AG47\mr97a\MR97a.bas(954) error 96: Illegal inside a compound statement or scoped block, found 'DEFINT'
+DEFINT A-Z
+^
+C:\AG47\mr97a\MR97a.bas(954) error 133: Too many errors, exiting

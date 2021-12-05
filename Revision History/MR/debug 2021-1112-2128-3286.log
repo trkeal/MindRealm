@@ -1,0 +1,10 @@
+C:\AG47\mr97a\MR97a.bas(19) error 4: Duplicated definition
+DECLARE SUB GraphicPut (XXXX, YYYY, GGGG$)
+                                         ^
+C:\AG47\mr97a\MR97a.bas(322) error 7: Expected ')', found 'b0808.til'
+CALL GraphicPut((x0 - 1) * 8, (y0 - 1) * 8, "tiles\RIGHT$(STR$(1000 + ASC(c0$)), 3) + "b0808.til")
+                                                                                       ^
+C:\AG47\mr97a\MR97a.bas(322) warning 12(1): Missing closing quote in literal string
+C:\AG47\mr97a\MR97a.bas(896) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(g01(0)): BLOAD "tiles\" + GGGR$, VARPTR(g01(0))
+      ^

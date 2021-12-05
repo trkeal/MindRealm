@@ -1,0 +1,4 @@
+C:\AG47\mr97a\Test BSV.bas(18) warning 1(2): Passing scalar as pointer, at parameter 1 (dest) of SPRITE_PUT()
+C:\AG47\mr97a\Test BSV.bas(18) error 58: Type mismatch, at parameter 3 (y) of SPRITE_PUT()
+	sprite_put( (i-1)*8, 0, "party\" + r, "pset" )	
+	                                    ^

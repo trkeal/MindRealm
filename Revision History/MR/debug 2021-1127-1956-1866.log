@@ -1,0 +1,9 @@
+C:\ag\mr97b\MR97b.bas(73) error 4: Duplicated definition, d
+DIM SHARED as integer d(4, 2): 'filename vectors (n,e,s,w)
+                             ^
+C:\ag\mr97b\inc\random.bas(7) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+randomizer = val(sync_names( "randomizer", about_table() ) )
+                                                         ^
+C:\ag\mr97b\MR97b.bas(661) error 4: Duplicated definition, rosecard
+dim as integer rosecard = 0, roseaxis = 0
+                        ^

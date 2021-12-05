@@ -1,0 +1,32 @@
+C:\AG47\mr97a\MR97a.bas(433) error 72: Array not dimensioned, before '('
+514 IF c3 = 2 AND c0$ = "#" AND LEFTa$(r$, 13) = "[Forced gate]" THEN g(py + my, px + mx) = ASC("Û"): y0 = py + my: x0 = px + mx: GOSUB 220
+                                       ^
+C:\AG47\mr97a\MR97a.bas(662) error 72: Array not dimensioned, before '('
+1620 IF r$ <> "" THEN LOCATE 25, 3: COLOR 9, 0: PRINT r$; : COLOR 3: PRINT STRINgaa$(36 - LEN(r$), "Ä"); : COLOR 15, 0
+                                                                                     ^
+C:\AG47\mr97a\MR97a.bas(687) error 72: Array not dimensioned, before '('
+1734 IF RIGHT$(m1$, 1) = "+" AND m2 > 1 AND INSTR(1, "x", MID$(m1$, LEN(m1$) - 1, 1)) = 0 THEN m1$ = LEFTa$(m1$, LEN(m1$) - 1) + "s+": m3$ = m1$ + s2$: GOTO 1798
+                                                                                                            ^
+C:\AG47\mr97a\MR97a.bas(688) error 72: Array not dimensioned, before '('
+1735 IF RIGHT$(m1$, 1) = "+" AND m2 > 1 AND INSTR(1, "x", MID$(m1$, LEN(m1$) - 1, 1)) > 0 THEN m1$ = LEFTa$(m1$, LEN(m1$) - 1) + "es+": m3$ = m1$ + s2$: GOTO 1798
+                                                                                                            ^
+C:\AG47\mr97a\MR97a.bas(756) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(g01(0)): BLOAD "tiles\" + GGGG$, VARPTR(g01(0))
+      ^
+C:\AG47\mr97a\MR97a.bas(764) error 10: Expected '=', found 'SEG'
+  DEF SEG = VARSEG(mouse$)
+      ^
+C:\AG47\mr97a\MR97a.bas(765) warning 5(1): Implicit conversion
+C:\AG47\mr97a\MR97a.bas(766) error 14: Expected identifier, found 'Absolute'
+  CALL Absolute(AX%, bx%, CX%, DX%, mouse%)
+       ^
+C:\AG47\mr97a\MR97a.bas(864) error 72: Array not dimensioned, before '('
+Joyx% = STICK(0)
+              ^
+C:\AG47\mr97a\MR97a.bas(865) error 72: Array not dimensioned, before '('
+JOYY% = STICK(1)
+              ^
+C:\AG47\mr97a\MR97a.bas(867) error 72: Array not dimensioned, before '('
+BUT1% = STRIG(1)
+              ^
+C:\AG47\mr97a\MR97a.bas(867) error 133: Too many errors, exiting

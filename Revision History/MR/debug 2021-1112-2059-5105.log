@@ -1,0 +1,31 @@
+C:\AG47\mr97a\MR97a.bas(347) error 72: Array not dimensioned, before '('
+r$ = "": c$ = "": c$ = INPUTa$(1)
+                               ^
+C:\AG47\mr97a\MR97a.bas(349) error 1: Argument count mismatch
+312 IF c$ = "~" THEN RUN
+                     ^
+C:\AG47\mr97a\MR97a.bas(421) error 73: Array access, index expected, before '='
+501 IF c$ = "8" THEN my = -1: mx = 0: ly = 2: ry = py + 1: lx = px - 1: rx = px + 1
+                                         ^
+C:\AG47\mr97a\MR97a.bas(421) error 73: Array access, index expected, before '='
+501 IF c$ = "8" THEN my = -1: mx = 0: ly = 2: ry = py + 1: lx = px - 1: rx = px + 1
+                                                              ^
+C:\AG47\mr97a\MR97a.bas(422) error 73: Array access, index expected, before '='
+502 IF c$ = "6" THEN my = 0: mx = 1: ly = py - 1: ry = py + 1: lx = px - 1: rx = 39
+                                        ^
+C:\AG47\mr97a\MR97a.bas(422) error 73: Array access, index expected, before '='
+502 IF c$ = "6" THEN my = 0: mx = 1: ly = py - 1: ry = py + 1: lx = px - 1: rx = 39
+                                                                  ^
+C:\AG47\mr97a\MR97a.bas(423) error 73: Array access, index expected, before '='
+503 IF c$ = "2" THEN my = 1: mx = 0: ly = py - 1: ry = 24: lx = px - 1: rx = px + 1
+                                        ^
+C:\AG47\mr97a\MR97a.bas(423) error 73: Array access, index expected, before '='
+503 IF c$ = "2" THEN my = 1: mx = 0: ly = py - 1: ry = 24: lx = px - 1: rx = px + 1
+                                                              ^
+C:\AG47\mr97a\MR97a.bas(424) error 73: Array access, index expected, before '='
+504 IF c$ = "4" THEN my = 0: mx = -1: ly = py - 1: ry = py + 1: lx = 2: rx = px + 1
+                                         ^
+C:\AG47\mr97a\MR97a.bas(424) error 73: Array access, index expected, before '='
+504 IF c$ = "4" THEN my = 0: mx = -1: ly = py - 1: ry = py + 1: lx = 2: rx = px + 1
+                                                                   ^
+C:\AG47\mr97a\MR97a.bas(424) error 133: Too many errors, exiting

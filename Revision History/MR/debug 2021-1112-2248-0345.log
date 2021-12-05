@@ -1,0 +1,3 @@
+C:\AG47\mr97a\inc\names.bas(34) error 3: Expected End-of-Line, found ')'
+		buffer = mid$(buffer, len(subject) + len( crlf)) )
+		                                                 ^

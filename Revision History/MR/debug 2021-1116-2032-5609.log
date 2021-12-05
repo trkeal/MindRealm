@@ -1,0 +1,31 @@
+C:\AG47\mr97a\inc\names script.bas(27) error 36: Wrong number of dimensions, S
+	redim preserve s( 1 to 7 )
+	                         ^
+C:\AG47\mr97a\inc\names script.bas(38) error 36: Wrong number of dimensions, S
+		s(spell) = val( sync_names( "spell/906/" + ltrim$( str$( spell ) ) + "/s", spells_table() ) )
+		       ^
+C:\AG47\mr97a\inc\names script.bas(90) error 36: Wrong number of dimensions, S
+	redim preserve s( 1 to 6 )
+	                         ^
+C:\AG47\mr97a\inc\names script.bas(100) error 36: Wrong number of dimensions, S
+		s( shopi ) = val( sync_names( "spell/" + ltrim$( str$( 900 + shopi ) ) + "/sas", shops() ) )
+		         ^
+C:\AG47\mr97a\MR97a.bas(14) error 4: Duplicated definition, shops
+redim shared as names_type shops( any )
+                                      ^
+C:\AG47\mr97a\MR97a.bas(58) error 4: Duplicated definition, i
+DIM SHARED i(ch, 6): 'character
+                   ^
+C:\AG47\mr97a\MR97a.bas(59) error 4: Duplicated definition, k
+DIM SHARED k(ch, 6): 'character spell knowledge
+                   ^
+C:\AG47\mr97a\MR97a.bas(60) error 4: Duplicated definition, e
+DIM SHARED e(ch, 6): 'character spell experience
+                   ^
+C:\AG47\mr97a\MR97a.bas(62) error 4: Duplicated definition, s
+DIM SHARED s(6): 'spell
+               ^
+C:\AG47\mr97a\MR97a.bas(489) error 36: Wrong number of dimensions, S
+465 r$ = "[Mystic Orb]": r = INT(RND(1) * 7): IF r > 0 AND e(p0, r) = s(r) THEN 465
+                                                                         ^
+C:\AG47\mr97a\MR97a.bas(489) error 133: Too many errors, exiting

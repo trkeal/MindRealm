@@ -1,0 +1,3 @@
+C:\AG47\mr97a\MR97a.bas(1408) error 3: Expected End-of-Line, found ')'
+			co = right$( str$( 1000 + z( ip0, is0 ) ), 3 ) + right$( str$( 1000 + z( ip0, is0 ) ), 3 ) )
+			                                                                                           ^

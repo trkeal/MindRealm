@@ -1,0 +1,31 @@
+C:\ag\mr97b\inc\stat hud.bas(39) error 72: Array not dimensioned, before '('
+		if z( ip0, 1 ) > 0 then
+		      ^
+C:\ag\mr97b\inc\stat hud.bas(45) error 72: Array not dimensioned, before '('
+			co = nimg( ip0 )				
+			           ^
+C:\ag\mr97b\inc\stat hud.bas(50) error 72: Array not dimensioned, before '('
+			co = nas( ip0 )		
+			          ^
+C:\ag\mr97b\inc\stat hud.bas(57) error 72: Array not dimensioned, before '('
+				co = truncate( str$( z( ip0, is0 ) ), 3 )			
+				                        ^
+C:\ag\mr97b\inc\spell hud.bas(10) error 58: Type mismatch, at parameter 2 (names_table) of SYNC_NAMES()
+	dim as integer spellct = val( sync_names( "spell/count", spells_table() ) )
+	                                                                        ^
+C:\ag\mr97b\inc\spell hud.bas(16) error 72: Array not dimensioned, before '('
+		co = nimg(p0)
+		          ^
+C:\ag\mr97b\inc\spell hud.bas(21) error 72: Array not dimensioned, before '('
+		co = nas(p0)
+		         ^
+C:\ag\mr97b\inc\spell hud.bas(48) error 72: Array not dimensioned, before '('
+		co = truncate( left$( str$( sas( is0 ) ), 7 ), 3 )
+		                                 ^
+C:\ag\mr97b\inc\spell hud.bas(53) error 72: Array not dimensioned, before '('
+		co = truncate( left$( str$( k( p0, is0 ) ), 2 ), 3 )
+		                               ^
+C:\ag\mr97b\inc\spell hud.bas(58) error 72: Array not dimensioned, before '('
+		co = truncate( left$( str$( e( p0, is0 ) ), 2 ), 3 )		
+		                               ^
+C:\ag\mr97b\inc\spell hud.bas(58) error 133: Too many errors, exiting

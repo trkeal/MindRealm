@@ -1,0 +1,6 @@
+C:\ag\mr97b\MR97b.bas(75) error 4: Duplicated definition, currentstats
+DIM SHARED as integer currentstats(ch, 6): 'character status (hp,ap,dp,mp,sight,scent)
+                                         ^
+C:\ag\mr97b\MR97b.bas(760) error 10: Expected '=', found 'spells_table'
+load_spells spells_table()
+            ^

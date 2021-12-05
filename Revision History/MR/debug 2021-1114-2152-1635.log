@@ -1,0 +1,6 @@
+C:\AG47\mr97a\MR97a.bas(1052) error 99: No matching overloaded function, BSAVE()
+	bsave image, "tiles.bmp"
+	             ^
+C:\AG47\mr97a\MR97a.bas(1055) error 10: Expected '=', found 'image'
+	destroyimage image
+	             ^

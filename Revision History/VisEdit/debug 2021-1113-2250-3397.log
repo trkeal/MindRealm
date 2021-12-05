@@ -1,0 +1,18 @@
+C:\AG47\mr97a\inc\outro.bas(45) error 6: Expected '('
+		draw string outroimage( 0 ), 1, 1-1, outro,13
+		                             ^
+C:\AG47\mr97a\inc\outro.bas(46) error 6: Expected '('
+		draw string outroimage( 0 ), 1+1, 1, outro,13
+		                             ^
+C:\AG47\mr97a\inc\outro.bas(47) error 6: Expected '('
+		draw string outroimage( 0 ), 1, 1+1, outro,13
+		                             ^
+C:\AG47\mr97a\inc\outro.bas(48) error 6: Expected '('
+		draw string outroimage( 0 ), 1-1, 1, outro,13
+		                             ^
+C:\AG47\mr97a\inc\outro.bas(50) error 6: Expected '('
+		draw string outroimage( 0 ), 1, 1, outro, 5
+		                             ^
+C:\AG47\mr97a\VisEdit96a.bas(32) error 1: Argument count mismatch
+if c$ = chr$(27) then quitoutro
+                      ^

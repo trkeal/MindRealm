@@ -1,0 +1,2 @@
+C:\AG47\mr97a\inc\screen scaler.bas(4) warning 36(1): Mismatching parameter initializer, at parameter 1 (sourcepage) of screen_scaler()
+C:\AG47\mr97a\inc\screen scaler.bas(4) warning 36(1): Mismatching parameter initializer, at parameter 2 (destpage) of screen_scaler()
